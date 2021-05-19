@@ -1,0 +1,6 @@
+framework module BookShop {
+  umbrella header "BookShop-umbrella.h"
+
+  export *
+  module * { export * }
+}

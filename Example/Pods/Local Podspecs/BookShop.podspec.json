@@ -1,0 +1,22 @@
+{
+  "name": "BookShop",
+  "version": "0.1.0",
+  "summary": "A short description of BookShop.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wenchao8023/BookShop",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wenchao8023": "15629120502@163.com"
+  },
+  "source": {
+    "git": "https://github.com/wenchao8023/BookShop.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "BookShop/Classes/**/*"
+}

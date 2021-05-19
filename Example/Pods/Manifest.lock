@@ -1,0 +1,27 @@
+PODS:
+  - BookShop (0.1.0)
+  - ManagerBook (0.1.2)
+  - MotivationalBook (0.1.1)
+
+DEPENDENCIES:
+  - BookShop (from `../`)
+  - ManagerBook (~> 0.1.0)
+  - MotivationalBook (~> 0.1.0)
+
+SPEC REPOS:
+  https://github.com/wenchao8023/CwenSpec.git:
+    - ManagerBook
+    - MotivationalBook
+
+EXTERNAL SOURCES:
+  BookShop:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BookShop: bde4364a480162950d9d2f523249f0bc9f420a72
+  ManagerBook: 67becb73e54281fbe2e8522ce7658dc4d99b1e21
+  MotivationalBook: dcd97b0155ff71fb893293c2aab0fdd949ed92f1
+
+PODFILE CHECKSUM: ebc488aa7de444504b11747c5edaede2de3f97d7
+
+COCOAPODS: 1.10.1

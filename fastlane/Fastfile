@@ -40,7 +40,7 @@ platform :ios do
 		ensure_git_branch(branch: "#{branch}")
 		spec = read_podspec
 		version = spec["version"]
-		sh("git commit -am \"tag #{version}\"")	
+		sh("git add . && git commit -m \"tag #{version}\"")	
 		ensure_git_status_clean
 		push_to_git_remote
 		add_git_tag(tag: version)
@@ -58,7 +58,7 @@ platform :ios do
 				sh("mkdir #{version}")
 				sh("cp #{root_path}/#{component}.podspec #{spec_path}/#{component}/#{version}")
 			end
-			sh("git commit -am \"tag #{version}\" & git push")	
+			sh("git commit -am \"tag #{version}\" && git push")	
 		end
 		UI.success("【Info】#{component}----repo: #{version}")
 	end

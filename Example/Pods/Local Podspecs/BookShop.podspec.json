@@ -1,6 +1,6 @@
 {
   "name": "BookShop",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "summary": "A short description of BookShop.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/wenchao8023/BookShop",
@@ -13,10 +13,15 @@
   },
   "source": {
     "git": "https://github.com/wenchao8023/BookShop.git",
-    "tag": "0.1.0"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "BookShop/Classes/**/*"
+  "source_files": "BookShop/Classes/**/*",
+  "dependencies": {
+    "CTMediator": [
+
+    ]
+  }
 }

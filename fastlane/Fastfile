@@ -13,11 +13,54 @@
 # Uncomment the line if you want fastlane to automatically update itself
 # update_fastlane
 
+
 default_platform(:ios)
 
 platform :ios do
-  desc "Description of what the lane does"
-  lane :custom_lane do
-    # add actions here: https://docs.fastlane.tools/actions
-  end
+	# 项目根目录
+	root_path = Pathname::new(File::dirname(__FILE__)).realpath.parent
+	# 私有仓库 Repo 目录
+	spec_path = "{Dir.home}/.cocoapods/repos/CwenSpec"
+	# 当前组件
+	component = "BookShop"
+	# 当前分支
+	branch = "master"
+
+	desc "更新 spec 版本号"
+	lane :update_podspec do
+		ensure_git_branch(branch: "#{branch}")
+		git_pull
+		version = version_bump_podspec(path: "#{component}.podspec", bump_type: "patch")
+		cocoapods(use_bundle_exec: false, podfile: "#{root_path}/Example/Podfile")
+		UI.success("【Info】#{component}.podspec----#{version}----#{branch}")
+	end
+
+	desc "更新组件 tag"
+	lane :update_tag do
+		ensure_git_branch(branch: "#{branch}")
+		spec = read_podspec
+		version = spec["version"]
+		sh("git commit -am \"tag #{version}\"")	
+		ensure_git_status_clean
+		push_to_git_remote
+		add_git_tag(tag: version)
+		push_git_tags
+		UI.success("【Info】#{component}----tag: #{version}----#{branch}")
+	end
+
+	desc "推送 repo"
+	lane :push_repo do
+		spec = read_podspec
+		version = spec["version"]
+		Dir.chdir(spec_path) do
+			git_pull
+			Dir.chdir("#{spec_path}/#{component}") do
+				sh("mkdir #{version}")
+				sh("cp #{root_path}/#{component}.podspec #{spec_path}/#{component}/#{version}")
+			end
+			sh("git commit -am \"tag #{version}\" & git push")	
+		end
+		UI.success("【Info】#{component}----repo: #{version}")
+	end
+
 end

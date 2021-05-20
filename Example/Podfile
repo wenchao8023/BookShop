@@ -10,5 +10,5 @@ target 'BookShop_Example' do
   pod 'BookShop', :path => '../'
   pod 'ManagerBook', '~>0.1.0'
   pod 'MotivationalBook', '~>0.1.0'
-  pod "CTMediator"
+#  pod "CTMediator"
 end

@@ -5,24 +5,32 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.001866">
+      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.000647">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="1: ensure_git_branch" time="0.067762">
+      <testcase classname="fastlane.lanes" name="1: read_podspec" time="1.182856">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="2: read_podspec" time="1.049055">
+      <testcase classname="fastlane.lanes" name="2: git pull" time="1.384962">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="3: git add . &amp; git commit -m &quot;tag 0.1.2&quot;" time="0.044658">
+      <testcase classname="fastlane.lanes" name="3: mkdir 0.1.2" time="0.010767">
         
-          <failure message="/usr/local/Cellar/fastlane/2.156.1/libexec/gems/fastlane-2.183.2/fastlane/lib/fastlane/actions/actions_helper.rb:67:in `execute_action'&#10;/usr/local/Cellar/fastlane/2.156.1/libexec/gems/fastlane-2.183.2/fastlane/lib/fastlane/fast_file.rb:222:in `sh'&#10;/usr/local/Cellar/fastlane/2.156.1/libexec/gems/fastlane-2.183.2/fastlane/lib/fastlane/fast_file.rb:216:in `sh'&#10;Fastfile:43:in `block (2 levels) in parsing_binding'&#10;/usr/local/Cellar/fastlane/2.156.1/libexec/gems/fastlane-2.183.2/fastlane/lib/fastlane/lane.rb:33:in `call'&#10;/usr/local/Cellar/fastlane/2.156.1/libexec/gems/fastlane-2.183.2/fastlane/lib/fastlane/runner.rb:49:in `block in execute'&#10;/usr/local/Cellar/fastlane/2.156.1/libexec/gems/fastlane-2.183.2/fastlane/lib/fastlane/runner.rb:45:in `chdir'&#10;/usr/local/Cellar/fastlane/2.156.1/libexec/gems/fastlane-2.183.2/fastlane/lib/fastlane/runner.rb:45:in `execute'&#10;/usr/local/Cellar/fastlane/2.156.1/libexec/gems/fastlane-2.183.2/fastlane/lib/fastlane/lane_manager.rb:47:in `cruise_lane'&#10;/usr/local/Cellar/fastlane/2.156.1/libexec/gems/fastlane-2.183.2/fastlane/lib/fastlane/command_line_handler.rb:36:in `handle'&#10;/usr/local/Cellar/fastlane/2.156.1/libexec/gems/fastlane-2.183.2/fastlane/lib/fastlane/commands_generator.rb:109:in `block (2 levels) in run'&#10;/usr/local/Cellar/fastlane/2.156.1/libexec/gems/commander-4.6.0/lib/commander/command.rb:187:in `call'&#10;/usr/local/Cellar/fastlane/2.156.1/libexec/gems/commander-4.6.0/lib/commander/command.rb:157:in `run'&#10;/usr/local/Cellar/fastlane/2.156.1/libexec/gems/commander-4.6.0/lib/commander/runner.rb:444:in `run_active_command'&#10;/usr/local/Cellar/fastlane/2.156.1/libexec/gems/fastlane-2.183.2/fastlane_core/lib/fastlane_core/ui/fastlane_runner.rb:76:in `run!'&#10;/usr/local/Cellar/fastlane/2.156.1/libexec/gems/commander-4.6.0/lib/commander/delegates.rb:18:in `run!'&#10;/usr/local/Cellar/fastlane/2.156.1/libexec/gems/fastlane-2.183.2/fastlane/lib/fastlane/commands_generator.rb:353:in `run'&#10;/usr/local/Cellar/fastlane/2.156.1/libexec/gems/fastlane-2.183.2/fastlane/lib/fastlane/commands_generator.rb:42:in `start'&#10;/usr/local/Cellar/fastlane/2.156.1/libexec/gems/fastlane-2.183.2/fastlane/lib/fastlane/cli_tools_distributor.rb:122:in `take_off'&#10;/usr/local/Cellar/fastlane/2.156.1/libexec/gems/fastlane-2.183.2/bin/fastlane:23:in `&lt;top (required)&gt;'&#10;/usr/local/Cellar/fastlane/2.156.1/libexec/bin/fastlane:23:in `load'&#10;/usr/local/Cellar/fastlane/2.156.1/libexec/bin/fastlane:23:in `&lt;main&gt;'&#10;&#10;Exit status of command 'git add . &amp; git commit -m &quot;tag 0.1.2&quot;' was 128 instead of 0.&#10;fatal: Unable to create '/Users/guowenchao/Documents/File-Wealth/File-iOS/04-iOS 框架解读篇/002-组件化/02-组件化实践/Demo/BookShop/.git/index.lock': File exists.&#10;&#10;Another git process seems to be running in this repository, e.g.&#10;an editor opened by 'git commit'. Please make sure all processes&#10;are terminated then try again. If it still fails, a git process&#10;may have crashed in this repository earlier:&#10;remove the file manually to continue.&#10;" />
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="4: cp /Users/guowenchao/Documents/File-Wealth/File-iOS/15-SourceCode/01-ComponentDemo/BookShop/BookShop.podspec /Users/guowenchao/.cocoapods/repos/CwenSpec/BookShop/0.1.2" time="0.016838">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="5: git add . &amp;&amp; git commit -m &quot;tag 0.1.2&quot; &amp;&amp; git push" time="3.511388">
         
       </testcase>
     

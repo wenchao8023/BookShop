@@ -20,7 +20,7 @@ platform :ios do
 	# 项目根目录
 	root_path = Pathname::new(File::dirname(__FILE__)).realpath.parent
 	# 私有仓库 Repo 目录
-	spec_path = "{Dir.home}/.cocoapods/repos/CwenSpec"
+	spec_path = "#{Dir.home}/.cocoapods/repos/CwenSpec"
 	# 当前组件
 	component = "BookShop"
 	# 当前分支
@@ -53,12 +53,12 @@ platform :ios do
 		spec = read_podspec
 		version = spec["version"]
 		Dir.chdir(spec_path) do
-			git_pull
+			sh("git pull")
 			Dir.chdir("#{spec_path}/#{component}") do
 				sh("mkdir #{version}")
 				sh("cp #{root_path}/#{component}.podspec #{spec_path}/#{component}/#{version}")
 			end
-			sh("git commit -am \"tag #{version}\" && git push")	
+			sh("git add . && git commit -m \"tag #{version}\" && git push")	
 		end
 		UI.success("【Info】#{component}----repo: #{version}")
 	end

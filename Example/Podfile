@@ -1,5 +1,8 @@
 #use_frameworks!
+#source 'https://github.com/CocoaPods/Specs.git'
+source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
 source 'https://github.com/wenchao8023/CwenSpec.git'
+source 'https://github.com/ModulizationDemo/PrivatePods.git'
 
 platform :ios, '9.0'
 
@@ -7,10 +10,5 @@ target 'BookShop_Example' do
   pod 'BookShop', :path => '../'
   pod 'ManagerBook', '~>0.1.0'
   pod 'MotivationalBook', '~>0.1.0'
-
-  target 'BookShop_Tests' do
-    inherit! :search_paths
-
-    
-  end
+  pod "CTMediator"
 end

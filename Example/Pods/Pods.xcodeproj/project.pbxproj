@@ -7,84 +7,91 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		31C33C2BCCE98EB0A286E2122229DC71 /* ManagerBook-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52621AFBAA29FE8C10DB6FE3F2227D25 /* ManagerBook-dummy.m */; };
-		3711050C1964AAB64C8DA0B60EDFAD47 /* MotivationalBookVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B4903E5BC20A9DF06ADFEB16BB36A1C /* MotivationalBookVC.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		58A1D2ED1786947B64D8574B6822954D /* ManagerBookVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 975F5D3256B935F58111709D06806840 /* ManagerBookVC.m */; };
-		6EC34AE5AADE6BD7801EFD4D871F2B87 /* MotivationalBookVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A576E61BA230961CD98083520EF34D5C /* MotivationalBookVC.m */; };
-		797791BCB3C0F0E5E6F0CA0FC152F104 /* Pods-BookShop_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6939F8FA43FCAA359EE7A48664F1C977 /* Pods-BookShop_Example-dummy.m */; };
+		09E63D7096C268595FC7CF22502705CE /* CTMediator+HandyTools.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D6E1B1E5E1642994629B04BD88BE4E /* CTMediator+HandyTools.m */; };
+		31C33C2BCCE98EB0A286E2122229DC71 /* ManagerBook-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B576B85D058DBB0E8C5DC1BC1C3FB3 /* ManagerBook-dummy.m */; };
+		3711050C1964AAB64C8DA0B60EDFAD47 /* MotivationalBookVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 09E19FFA4DF0EA147371A80E505C2195 /* MotivationalBookVC.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		378CE05F2A6DFB439FAE01D370ABBC3D /* CTMediator+HandyTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 69CD7B5650F99EA470D467CD2D378FBD /* CTMediator+HandyTools.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46FEA63E9BBEEF44081F15C9DAD7477D /* CTMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD18AF2BF3A3D1D59455914B24B00F0 /* CTMediator-dummy.m */; };
+		58A1D2ED1786947B64D8574B6822954D /* ManagerBookVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AEC2B32B45EA64E2FCE4EE787193350 /* ManagerBookVC.m */; };
+		6EC34AE5AADE6BD7801EFD4D871F2B87 /* MotivationalBookVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3447EB6D611472F21E197A8E8CBEFEB5 /* MotivationalBookVC.m */; };
 		7FC917685F1DE3129F5F588CAA39C2BE /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B2059D52550A803D80316B0B026E60 /* ReplaceMe.m */; };
-		88A113D00A4943D75D892A86A347CDCC /* MotivationalBook-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C5AA9295C394E473970BCB28490460 /* MotivationalBook-dummy.m */; };
+		88A113D00A4943D75D892A86A347CDCC /* MotivationalBook-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD369E2232269BEE3A901B153ADDC168 /* MotivationalBook-dummy.m */; };
 		9E9F263E3C03481F3CBB50B9E4EB88E5 /* BookShop-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5217703578A78B173E14094A280A3082 /* BookShop-dummy.m */; };
-		D782DB1CC83CB1BD2313B55E05F5B8B8 /* ManagerBookVC.h in Headers */ = {isa = PBXBuildFile; fileRef = E39B8CF1A994F9A3E59A5ECD8DE39D8F /* ManagerBookVC.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		DF40BB64BA49D5781D132C88B7007210 /* Pods-BookShop_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9773F331CFE776EE9B9978E47615AC58 /* Pods-BookShop_Tests-dummy.m */; };
+		BE2EDE521E3FC3666AD2731233CEDFA7 /* Pods-BookShop_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55EE8CBB3C8C5E66B5A9B8DF44C00735 /* Pods-BookShop_Example-dummy.m */; };
+		C53CB88025D74DCBCD4E778B533C321A /* CTMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = AB3BA3A49AAE27C0F0D653D8CAC2EB29 /* CTMediator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D782DB1CC83CB1BD2313B55E05F5B8B8 /* ManagerBookVC.h in Headers */ = {isa = PBXBuildFile; fileRef = DD5D7448D1A8CA9BEF3953AB472C163E /* ManagerBookVC.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FFC65992EF91D622E18C7B5D348B26CB /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 01335D8BAE52FA70EE5E765FB887BB94 /* CTMediator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1455CEE2DA9CC8D80A6C0685421C7520 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2D2FB2C5EA1737DCFCCAEA7FD178536D;
-			remoteInfo = ManagerBook;
-		};
-		7E60B0FB04AEC4ECD40FD28A334286B8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BB60C5C230110035501DEAA59B3F06CF;
-			remoteInfo = MotivationalBook;
-		};
-		CE9DF1AF84BFB04855F5643816D3F964 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9415706A8A595B900C45F516FAF6725A;
-			remoteInfo = "Pods-BookShop_Example";
-		};
-		D11C9999C753F8A535857911ACA642DF /* PBXContainerItemProxy */ = {
+		09F0EEF0E8447DAB75A68DC3AE1C0618 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = DACAA0D13C1197AC953B55496C5C1730;
 			remoteInfo = BookShop;
 		};
+		2659574A95D009002F4AF774D164DCDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A222DBB9D71B481EE8F2DACD77F8A61;
+			remoteInfo = CTMediator;
+		};
+		3E8347123AE33D6D606889A32E6DBE40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D2FB2C5EA1737DCFCCAEA7FD178536D;
+			remoteInfo = ManagerBook;
+		};
+		BAF0D7D0998B1EDAF3B93EC7D2A15B3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB60C5C230110035501DEAA59B3F06CF;
+			remoteInfo = MotivationalBook;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02FF3F4D0ACCAEF42DF46FE15ADF049D /* MotivationalBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MotivationalBook.release.xcconfig; sourceTree = "<group>"; };
-		0B4DF064018DB70E26F9ECD356E8FB5C /* Pods-BookShop_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BookShop_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		01335D8BAE52FA70EE5E765FB887BB94 /* CTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTMediator.m; path = CTMediator/CTMediator/CTMediator.m; sourceTree = "<group>"; };
+		09E19FFA4DF0EA147371A80E505C2195 /* MotivationalBookVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MotivationalBookVC.h; path = MotivationalBook/Classes/MotivationalBookVC.h; sourceTree = "<group>"; };
+		12E853BA0FE69217198D1868C1D0493B /* MotivationalBook-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MotivationalBook-prefix.pch"; sourceTree = "<group>"; };
 		140E7147CDF73E2919DC3B9BB48F86D2 /* BookShop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BookShop.release.xcconfig; sourceTree = "<group>"; };
-		2C61CF45BD6CEAA188419739E96C41FF /* Pods-BookShop_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BookShop_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		2D841E1096B9C824259065D46EAD1302 /* Pods-BookShop_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BookShop_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		32D56E2E32461B2AD8D9507CFCBCDFD3 /* ManagerBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ManagerBook.release.xcconfig; sourceTree = "<group>"; };
-		33C5AA9295C394E473970BCB28490460 /* MotivationalBook-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MotivationalBook-dummy.m"; sourceTree = "<group>"; };
-		35359FE0D47AAEC0EFB5BB8FD264F393 /* libPods-BookShop_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-BookShop_Tests.a"; path = "libPods-BookShop_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3447EB6D611472F21E197A8E8CBEFEB5 /* MotivationalBookVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MotivationalBookVC.m; path = MotivationalBook/Classes/MotivationalBookVC.m; sourceTree = "<group>"; };
 		361D82AED29BD2575A3C8186F696C234 /* BookShop.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BookShop.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		3C3AA8A19B563702C1AB9F829C7F1EDB /* ManagerBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ManagerBook.debug.xcconfig; sourceTree = "<group>"; };
+		424E811256C4E578436F642EAD9146AB /* CTMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-prefix.pch"; sourceTree = "<group>"; };
 		491660F97C43F178EF8C868A1743415B /* BookShop-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BookShop-prefix.pch"; sourceTree = "<group>"; };
 		4EDB5F4B78B8761E7A10374FABF064F4 /* BookShop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BookShop.debug.xcconfig; sourceTree = "<group>"; };
+		51B576B85D058DBB0E8C5DC1BC1C3FB3 /* ManagerBook-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ManagerBook-dummy.m"; sourceTree = "<group>"; };
 		5217703578A78B173E14094A280A3082 /* BookShop-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BookShop-dummy.m"; sourceTree = "<group>"; };
-		52621AFBAA29FE8C10DB6FE3F2227D25 /* ManagerBook-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ManagerBook-dummy.m"; sourceTree = "<group>"; };
-		6939F8FA43FCAA359EE7A48664F1C977 /* Pods-BookShop_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BookShop_Example-dummy.m"; sourceTree = "<group>"; };
-		69BEC2DA88E107EC06C2F8E4599D0ACD /* MotivationalBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MotivationalBook.debug.xcconfig; sourceTree = "<group>"; };
-		6B4903E5BC20A9DF06ADFEB16BB36A1C /* MotivationalBookVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MotivationalBookVC.h; path = MotivationalBook/Classes/MotivationalBookVC.h; sourceTree = "<group>"; };
-		91E956C5F94B6639CCD218F6523425A4 /* Pods-BookShop_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BookShop_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		975F5D3256B935F58111709D06806840 /* ManagerBookVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ManagerBookVC.m; path = ManagerBook/Classes/ManagerBookVC.m; sourceTree = "<group>"; };
-		9773F331CFE776EE9B9978E47615AC58 /* Pods-BookShop_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BookShop_Tests-dummy.m"; sourceTree = "<group>"; };
-		9B4DF3A010C9575BCE0B85AC3DEF4F2A /* Pods-BookShop_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BookShop_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		55EE8CBB3C8C5E66B5A9B8DF44C00735 /* Pods-BookShop_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BookShop_Example-dummy.m"; sourceTree = "<group>"; };
+		5A9EB2F197D53FFDDA3718780C4BF9B8 /* Pods-BookShop_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BookShop_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5AEC2B32B45EA64E2FCE4EE787193350 /* ManagerBookVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ManagerBookVC.m; path = ManagerBook/Classes/ManagerBookVC.m; sourceTree = "<group>"; };
+		5E0BB074E844952E2AA0E5941D62B60A /* ManagerBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ManagerBook.release.xcconfig; sourceTree = "<group>"; };
+		68FD71EBA2CC98523D3AACCE8A0D43C8 /* libCTMediator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCTMediator.a; path = libCTMediator.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		69CD7B5650F99EA470D467CD2D378FBD /* CTMediator+HandyTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTMediator+HandyTools.h"; path = "CTMediator/CTMediator/CTMediator+HandyTools.h"; sourceTree = "<group>"; };
+		7B5F11550445E8138FB1CFE605D16EB5 /* ManagerBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ManagerBook.debug.xcconfig; sourceTree = "<group>"; };
+		7C4278C5FEEEB1A6046A038F0235D87C /* Pods-BookShop_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BookShop_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7DF2AB7567B3800510478FC00C13E860 /* ManagerBook-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ManagerBook-prefix.pch"; sourceTree = "<group>"; };
+		8312D66A08B2F4F12F613CA34BE39C45 /* Pods-BookShop_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BookShop_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8442D5433719BD35B4D3101171A4888A /* CTMediator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediator.debug.xcconfig; sourceTree = "<group>"; };
+		8698B4383875073AC6E119797D6FEF92 /* MotivationalBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MotivationalBook.release.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A576E61BA230961CD98083520EF34D5C /* MotivationalBookVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MotivationalBookVC.m; path = MotivationalBook/Classes/MotivationalBookVC.m; sourceTree = "<group>"; };
 		A59B7CD172E3A5359F1222AE31DEFCA3 /* libMotivationalBook.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMotivationalBook.a; path = libMotivationalBook.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A636258FB17A5F5AA32E72889C4245BA /* CTMediator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediator.release.xcconfig; sourceTree = "<group>"; };
+		A8327138BAE27DED624F086FD6D5A874 /* MotivationalBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MotivationalBook.debug.xcconfig; sourceTree = "<group>"; };
+		AB3BA3A49AAE27C0F0D653D8CAC2EB29 /* CTMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTMediator.h; path = CTMediator/CTMediator/CTMediator.h; sourceTree = "<group>"; };
+		B4D5B3F96070E2674FD7148EECA9F52B /* Pods-BookShop_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BookShop_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B4D62B6BFD1368656183995C32D9CC42 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		B6BB854A951088A8EE822148D28579B1 /* MotivationalBook-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MotivationalBook-prefix.pch"; sourceTree = "<group>"; };
-		CA6F826CE07436A15866267EE0683810 /* Pods-BookShop_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BookShop_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D2C03577B492001539F88BDEA3C21B23 /* Pods-BookShop_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BookShop_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B4D6E1B1E5E1642994629B04BD88BE4E /* CTMediator+HandyTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+HandyTools.m"; path = "CTMediator/CTMediator/CTMediator+HandyTools.m"; sourceTree = "<group>"; };
+		BD369E2232269BEE3A901B153ADDC168 /* MotivationalBook-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MotivationalBook-dummy.m"; sourceTree = "<group>"; };
 		D6B2059D52550A803D80316B0B026E60 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = BookShop/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		DCF84B9741EB43770D36ECFD399D8648 /* libPods-BookShop_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-BookShop_Example.a"; path = "libPods-BookShop_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DDE142B4FA53A607EE6CE811A8B8AE4E /* ManagerBook-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ManagerBook-prefix.pch"; sourceTree = "<group>"; };
-		E39B8CF1A994F9A3E59A5ECD8DE39D8F /* ManagerBookVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ManagerBookVC.h; path = ManagerBook/Classes/ManagerBookVC.h; sourceTree = "<group>"; };
+		DD5D7448D1A8CA9BEF3953AB472C163E /* ManagerBookVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ManagerBookVC.h; path = ManagerBook/Classes/ManagerBookVC.h; sourceTree = "<group>"; };
 		E7C4121CE780D96EB51F1F827C4CC2FD /* libBookShop.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libBookShop.a; path = libBookShop.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC3F708158EBB6E00B0951620C26C3BA /* Pods-BookShop_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BookShop_Example.release.xcconfig"; sourceTree = "<group>"; };
+		EAD18AF2BF3A3D1D59455914B24B00F0 /* CTMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediator-dummy.m"; sourceTree = "<group>"; };
 		F0F44A4D6C2B2B63FA1976DE5678C0BA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		FF731AEEDB44A4A73B538DE0043B30F8 /* libManagerBook.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libManagerBook.a; path = libManagerBook.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -111,14 +118,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C8D196E97F048633EA8FBF697546A5D9 /* Frameworks */ = {
+		C7177AFEF8D6649A85D8712A39DE3733 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E89E2692D33A8D0F846F5D065CE76B56 /* Frameworks */ = {
+		DAD8DCBD103D1856EFEB0F92A20FC37E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -139,26 +146,16 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		072CBCCD280AFC15ACB7087966FE7EE4 /* MotivationalBook */ = {
+		17A50CF322F623AF834F3BAC8BCE789A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				6B4903E5BC20A9DF06ADFEB16BB36A1C /* MotivationalBookVC.h */,
-				A576E61BA230961CD98083520EF34D5C /* MotivationalBookVC.m */,
-				89A1475BD2ED82A0346AC7BB0AC21993 /* Support Files */,
+				BD369E2232269BEE3A901B153ADDC168 /* MotivationalBook-dummy.m */,
+				12E853BA0FE69217198D1868C1D0493B /* MotivationalBook-prefix.pch */,
+				A8327138BAE27DED624F086FD6D5A874 /* MotivationalBook.debug.xcconfig */,
+				8698B4383875073AC6E119797D6FEF92 /* MotivationalBook.release.xcconfig */,
 			);
-			name = MotivationalBook;
-			path = MotivationalBook;
-			sourceTree = "<group>";
-		};
-		2AB2C3D2CC27FB5DF774A0937AB9CD3E /* ManagerBook */ = {
-			isa = PBXGroup;
-			children = (
-				E39B8CF1A994F9A3E59A5ECD8DE39D8F /* ManagerBookVC.h */,
-				975F5D3256B935F58111709D06806840 /* ManagerBookVC.m */,
-				8ECF000D82457EE3C1EECF90A8D114F5 /* Support Files */,
-			);
-			name = ManagerBook;
-			path = ManagerBook;
+			name = "Support Files";
+			path = "../Target Support Files/MotivationalBook";
 			sourceTree = "<group>";
 		};
 		312134C5A2016D502DC7AEF7780B27CE /* Support Files */ = {
@@ -173,16 +170,12 @@
 			path = "Example/Pods/Target Support Files/BookShop";
 			sourceTree = "<group>";
 		};
-		4CB1A508A64D8419A8B66808BE1AB1C4 /* Products */ = {
+		43D0CE7F6E671DD54E822BCF8E17D24A /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E7C4121CE780D96EB51F1F827C4CC2FD /* libBookShop.a */,
-				FF731AEEDB44A4A73B538DE0043B30F8 /* libManagerBook.a */,
-				A59B7CD172E3A5359F1222AE31DEFCA3 /* libMotivationalBook.a */,
-				DCF84B9741EB43770D36ECFD399D8648 /* libPods-BookShop_Example.a */,
-				35359FE0D47AAEC0EFB5BB8FD264F393 /* libPods-BookShop_Tests.a */,
+				B908FB832705FAECDDC6C0625562F502 /* Pods-BookShop_Example */,
 			);
-			name = Products;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		5E0B3978EBFC35174E6A169064EAE208 /* Development Pods */ = {
@@ -193,41 +186,26 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		89A1475BD2ED82A0346AC7BB0AC21993 /* Support Files */ = {
+		5E2A8F34A15FBB3525B985C3006B6C74 /* ManagerBook */ = {
 			isa = PBXGroup;
 			children = (
-				33C5AA9295C394E473970BCB28490460 /* MotivationalBook-dummy.m */,
-				B6BB854A951088A8EE822148D28579B1 /* MotivationalBook-prefix.pch */,
-				69BEC2DA88E107EC06C2F8E4599D0ACD /* MotivationalBook.debug.xcconfig */,
-				02FF3F4D0ACCAEF42DF46FE15ADF049D /* MotivationalBook.release.xcconfig */,
+				DD5D7448D1A8CA9BEF3953AB472C163E /* ManagerBookVC.h */,
+				5AEC2B32B45EA64E2FCE4EE787193350 /* ManagerBookVC.m */,
+				C0531D38DDCF6EB0E6A99926E161D922 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/MotivationalBook";
+			name = ManagerBook;
+			path = ManagerBook;
 			sourceTree = "<group>";
 		};
-		8ECF000D82457EE3C1EECF90A8D114F5 /* Support Files */ = {
+		8CE200E3030E77BE52DB462248A5033B /* MotivationalBook */ = {
 			isa = PBXGroup;
 			children = (
-				52621AFBAA29FE8C10DB6FE3F2227D25 /* ManagerBook-dummy.m */,
-				DDE142B4FA53A607EE6CE811A8B8AE4E /* ManagerBook-prefix.pch */,
-				3C3AA8A19B563702C1AB9F829C7F1EDB /* ManagerBook.debug.xcconfig */,
-				32D56E2E32461B2AD8D9507CFCBCDFD3 /* ManagerBook.release.xcconfig */,
+				09E19FFA4DF0EA147371A80E505C2195 /* MotivationalBookVC.h */,
+				3447EB6D611472F21E197A8E8CBEFEB5 /* MotivationalBookVC.m */,
+				17A50CF322F623AF834F3BAC8BCE789A /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/ManagerBook";
-			sourceTree = "<group>";
-		};
-		99C5499BAA8B527B9C017510A3285C72 /* Pods-BookShop_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				CA6F826CE07436A15866267EE0683810 /* Pods-BookShop_Tests-acknowledgements.markdown */,
-				91E956C5F94B6639CCD218F6523425A4 /* Pods-BookShop_Tests-acknowledgements.plist */,
-				9773F331CFE776EE9B9978E47615AC58 /* Pods-BookShop_Tests-dummy.m */,
-				2D841E1096B9C824259065D46EAD1302 /* Pods-BookShop_Tests.debug.xcconfig */,
-				2C61CF45BD6CEAA188419739E96C41FF /* Pods-BookShop_Tests.release.xcconfig */,
-			);
-			name = "Pods-BookShop_Tests";
-			path = "Target Support Files/Pods-BookShop_Tests";
+			name = MotivationalBook;
+			path = MotivationalBook;
 			sourceTree = "<group>";
 		};
 		A06900F671C4DAF43E508A7AD37F49E4 /* Pod */ = {
@@ -240,11 +218,62 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		C2B001F519E4E666044DB5229FECD2C4 /* Pods */ = {
+		A5C822FEA9D76923730E17EFB1C3546A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2AB2C3D2CC27FB5DF774A0937AB9CD3E /* ManagerBook */,
-				072CBCCD280AFC15ACB7087966FE7EE4 /* MotivationalBook */,
+				E7C4121CE780D96EB51F1F827C4CC2FD /* libBookShop.a */,
+				68FD71EBA2CC98523D3AACCE8A0D43C8 /* libCTMediator.a */,
+				FF731AEEDB44A4A73B538DE0043B30F8 /* libManagerBook.a */,
+				A59B7CD172E3A5359F1222AE31DEFCA3 /* libMotivationalBook.a */,
+				DCF84B9741EB43770D36ECFD399D8648 /* libPods-BookShop_Example.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B908FB832705FAECDDC6C0625562F502 /* Pods-BookShop_Example */ = {
+			isa = PBXGroup;
+			children = (
+				8312D66A08B2F4F12F613CA34BE39C45 /* Pods-BookShop_Example-acknowledgements.markdown */,
+				7C4278C5FEEEB1A6046A038F0235D87C /* Pods-BookShop_Example-acknowledgements.plist */,
+				55EE8CBB3C8C5E66B5A9B8DF44C00735 /* Pods-BookShop_Example-dummy.m */,
+				5A9EB2F197D53FFDDA3718780C4BF9B8 /* Pods-BookShop_Example.debug.xcconfig */,
+				B4D5B3F96070E2674FD7148EECA9F52B /* Pods-BookShop_Example.release.xcconfig */,
+			);
+			name = "Pods-BookShop_Example";
+			path = "Target Support Files/Pods-BookShop_Example";
+			sourceTree = "<group>";
+		};
+		B997D010B67FD88DBD0C67026B053CBC /* CTMediator */ = {
+			isa = PBXGroup;
+			children = (
+				AB3BA3A49AAE27C0F0D653D8CAC2EB29 /* CTMediator.h */,
+				01335D8BAE52FA70EE5E765FB887BB94 /* CTMediator.m */,
+				69CD7B5650F99EA470D467CD2D378FBD /* CTMediator+HandyTools.h */,
+				B4D6E1B1E5E1642994629B04BD88BE4E /* CTMediator+HandyTools.m */,
+				D210B90515535C8BEF752F7550215DF5 /* Support Files */,
+			);
+			name = CTMediator;
+			path = CTMediator;
+			sourceTree = "<group>";
+		};
+		C0531D38DDCF6EB0E6A99926E161D922 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				51B576B85D058DBB0E8C5DC1BC1C3FB3 /* ManagerBook-dummy.m */,
+				7DF2AB7567B3800510478FC00C13E860 /* ManagerBook-prefix.pch */,
+				7B5F11550445E8138FB1CFE605D16EB5 /* ManagerBook.debug.xcconfig */,
+				5E0BB074E844952E2AA0E5941D62B60A /* ManagerBook.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ManagerBook";
+			sourceTree = "<group>";
+		};
+		CE35CA49868239E6DB71ADB139CE72B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B997D010B67FD88DBD0C67026B053CBC /* CTMediator */,
+				5E2A8F34A15FBB3525B985C3006B6C74 /* ManagerBook */,
+				8CE200E3030E77BE52DB462248A5033B /* MotivationalBook */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -255,10 +284,22 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				5E0B3978EBFC35174E6A169064EAE208 /* Development Pods */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
-				C2B001F519E4E666044DB5229FECD2C4 /* Pods */,
-				4CB1A508A64D8419A8B66808BE1AB1C4 /* Products */,
-				ED7B0B988175EED48D061EBB4F923D3A /* Targets Support Files */,
+				CE35CA49868239E6DB71ADB139CE72B0 /* Pods */,
+				A5C822FEA9D76923730E17EFB1C3546A /* Products */,
+				43D0CE7F6E671DD54E822BCF8E17D24A /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D210B90515535C8BEF752F7550215DF5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAD18AF2BF3A3D1D59455914B24B00F0 /* CTMediator-dummy.m */,
+				424E811256C4E578436F642EAD9146AB /* CTMediator-prefix.pch */,
+				8442D5433719BD35B4D3101171A4888A /* CTMediator.debug.xcconfig */,
+				A636258FB17A5F5AA32E72889C4245BA /* CTMediator.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CTMediator";
 			sourceTree = "<group>";
 		};
 		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
@@ -268,35 +309,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EA119967C19EF29B75C47B993F2A4690 /* Pods-BookShop_Example */ = {
-			isa = PBXGroup;
-			children = (
-				D2C03577B492001539F88BDEA3C21B23 /* Pods-BookShop_Example-acknowledgements.markdown */,
-				9B4DF3A010C9575BCE0B85AC3DEF4F2A /* Pods-BookShop_Example-acknowledgements.plist */,
-				6939F8FA43FCAA359EE7A48664F1C977 /* Pods-BookShop_Example-dummy.m */,
-				0B4DF064018DB70E26F9ECD356E8FB5C /* Pods-BookShop_Example.debug.xcconfig */,
-				EC3F708158EBB6E00B0951620C26C3BA /* Pods-BookShop_Example.release.xcconfig */,
-			);
-			name = "Pods-BookShop_Example";
-			path = "Target Support Files/Pods-BookShop_Example";
-			sourceTree = "<group>";
-		};
-		ED7B0B988175EED48D061EBB4F923D3A /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				EA119967C19EF29B75C47B993F2A4690 /* Pods-BookShop_Example */,
-				99C5499BAA8B527B9C017510A3285C72 /* Pods-BookShop_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		675B6E9F4CFBD126B28F3C1BF2A009A8 /* Headers */ = {
+		101BBDD510F4470D43974987994704C5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				378CE05F2A6DFB439FAE01D370ABBC3D /* CTMediator+HandyTools.h in Headers */,
+				C53CB88025D74DCBCD4E778B533C321A /* CTMediator.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +326,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D782DB1CC83CB1BD2313B55E05F5B8B8 /* ManagerBookVC.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1F9FC0F0AC6C8C33267A55BCAFD5650 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,13 +348,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3711050C1964AAB64C8DA0B60EDFAD47 /* MotivationalBookVC.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FFE36CB1426555F1F795BFBA0FC2A2AC /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,20 +371,38 @@
 			productReference = FF731AEEDB44A4A73B538DE0043B30F8 /* libManagerBook.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		9415706A8A595B900C45F516FAF6725A /* Pods-BookShop_Example */ = {
+		6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9583AE2F4B8E4E769802C9AC8A0B0454 /* Build configuration list for PBXNativeTarget "Pods-BookShop_Example" */;
+			buildConfigurationList = B88BA5C9D4CF728FCD317F8831484432 /* Build configuration list for PBXNativeTarget "CTMediator" */;
 			buildPhases = (
-				675B6E9F4CFBD126B28F3C1BF2A009A8 /* Headers */,
-				5464C89FAC5DF527149138E2DEF5159B /* Sources */,
-				C8D196E97F048633EA8FBF697546A5D9 /* Frameworks */,
+				101BBDD510F4470D43974987994704C5 /* Headers */,
+				06F448A97EDE0F65B65E3DB56B6DF20F /* Sources */,
+				DAD8DCBD103D1856EFEB0F92A20FC37E /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				42E931E166A43F00EC5A5BAF9324C942 /* PBXTargetDependency */,
-				A2FBDD820B984625DA25B3D64E172688 /* PBXTargetDependency */,
-				A84280864DAB5383E998A5D3717260B4 /* PBXTargetDependency */,
+			);
+			name = CTMediator;
+			productName = CTMediator;
+			productReference = 68FD71EBA2CC98523D3AACCE8A0D43C8 /* libCTMediator.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9415706A8A595B900C45F516FAF6725A /* Pods-BookShop_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22C7AF9D88F1C46A59445CBEBF929537 /* Build configuration list for PBXNativeTarget "Pods-BookShop_Example" */;
+			buildPhases = (
+				B1F9FC0F0AC6C8C33267A55BCAFD5650 /* Headers */,
+				569E3E3C55E958FCA9F703D8F79FBC0C /* Sources */,
+				C7177AFEF8D6649A85D8712A39DE3733 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A726343E90E75AA30F7F5165B33841F /* PBXTargetDependency */,
+				A333DF3BDBAC0938CAF0B0443D0098FD /* PBXTargetDependency */,
+				86B09EA437A1EEBB74AFE6466D8A80BE /* PBXTargetDependency */,
+				BB768E1346F1E3886F4F021F9BD055B4 /* PBXTargetDependency */,
 			);
 			name = "Pods-BookShop_Example";
 			productName = "Pods-BookShop_Example";
@@ -404,24 +443,6 @@
 			productReference = E7C4121CE780D96EB51F1F827C4CC2FD /* libBookShop.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		FC16D8338820883493B9CB16DE840DA9 /* Pods-BookShop_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B610DEFE550D7B01B8B3C02937E5FB3F /* Build configuration list for PBXNativeTarget "Pods-BookShop_Tests" */;
-			buildPhases = (
-				FFE36CB1426555F1F795BFBA0FC2A2AC /* Headers */,
-				0E2D3981952AEBFF40B30ED7B570AC3D /* Sources */,
-				E89E2692D33A8D0F846F5D065CE76B56 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B2C8DFDE09D7EE72325FD686229E3ADD /* PBXTargetDependency */,
-			);
-			name = "Pods-BookShop_Tests";
-			productName = "Pods-BookShop_Tests";
-			productReference = 35359FE0D47AAEC0EFB5BB8FD264F393 /* libPods-BookShop_Tests.a */;
-			productType = "com.apple.product-type.library.static";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -440,25 +461,27 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 4CB1A508A64D8419A8B66808BE1AB1C4 /* Products */;
+			productRefGroup = A5C822FEA9D76923730E17EFB1C3546A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				DACAA0D13C1197AC953B55496C5C1730 /* BookShop */,
+				6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */,
 				2D2FB2C5EA1737DCFCCAEA7FD178536D /* ManagerBook */,
 				BB60C5C230110035501DEAA59B3F06CF /* MotivationalBook */,
 				9415706A8A595B900C45F516FAF6725A /* Pods-BookShop_Example */,
-				FC16D8338820883493B9CB16DE840DA9 /* Pods-BookShop_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0E2D3981952AEBFF40B30ED7B570AC3D /* Sources */ = {
+		06F448A97EDE0F65B65E3DB56B6DF20F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF40BB64BA49D5781D132C88B7007210 /* Pods-BookShop_Tests-dummy.m in Sources */,
+				09E63D7096C268595FC7CF22502705CE /* CTMediator+HandyTools.m in Sources */,
+				46FEA63E9BBEEF44081F15C9DAD7477D /* CTMediator-dummy.m in Sources */,
+				FFC65992EF91D622E18C7B5D348B26CB /* CTMediator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,11 +503,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5464C89FAC5DF527149138E2DEF5159B /* Sources */ = {
+		569E3E3C55E958FCA9F703D8F79FBC0C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				797791BCB3C0F0E5E6F0CA0FC152F104 /* Pods-BookShop_Example-dummy.m in Sources */,
+				BE2EDE521E3FC3666AD2731233CEDFA7 /* Pods-BookShop_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -500,29 +523,29 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		42E931E166A43F00EC5A5BAF9324C942 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = BookShop;
-			target = DACAA0D13C1197AC953B55496C5C1730 /* BookShop */;
-			targetProxy = D11C9999C753F8A535857911ACA642DF /* PBXContainerItemProxy */;
-		};
-		A2FBDD820B984625DA25B3D64E172688 /* PBXTargetDependency */ = {
+		86B09EA437A1EEBB74AFE6466D8A80BE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ManagerBook;
 			target = 2D2FB2C5EA1737DCFCCAEA7FD178536D /* ManagerBook */;
-			targetProxy = 1455CEE2DA9CC8D80A6C0685421C7520 /* PBXContainerItemProxy */;
+			targetProxy = 3E8347123AE33D6D606889A32E6DBE40 /* PBXContainerItemProxy */;
 		};
-		A84280864DAB5383E998A5D3717260B4 /* PBXTargetDependency */ = {
+		8A726343E90E75AA30F7F5165B33841F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BookShop;
+			target = DACAA0D13C1197AC953B55496C5C1730 /* BookShop */;
+			targetProxy = 09F0EEF0E8447DAB75A68DC3AE1C0618 /* PBXContainerItemProxy */;
+		};
+		A333DF3BDBAC0938CAF0B0443D0098FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = 6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */;
+			targetProxy = 2659574A95D009002F4AF774D164DCDF /* PBXContainerItemProxy */;
+		};
+		BB768E1346F1E3886F4F021F9BD055B4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MotivationalBook;
 			target = BB60C5C230110035501DEAA59B3F06CF /* MotivationalBook */;
-			targetProxy = 7E60B0FB04AEC4ECD40FD28A334286B8 /* PBXContainerItemProxy */;
-		};
-		B2C8DFDE09D7EE72325FD686229E3ADD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-BookShop_Example";
-			target = 9415706A8A595B900C45F516FAF6725A /* Pods-BookShop_Example */;
-			targetProxy = CE9DF1AF84BFB04855F5643816D3F964 /* PBXContainerItemProxy */;
+			targetProxy = BAF0D7D0998B1EDAF3B93EC7D2A15B3C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -550,25 +573,29 @@
 			};
 			name = Debug;
 		};
-		0D75E8719B87A01477B4FEB1E88F37A3 /* Debug */ = {
+		088BE8C96FF9E1162C0B4C4B64F38781 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2D841E1096B9C824259065D46EAD1302 /* Pods-BookShop_Tests.debug.xcconfig */;
+			baseConfigurationReference = A636258FB17A5F5AA32E72889C4245BA /* CTMediator.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MACH_O_TYPE = staticlib;
+				GCC_PREFIX_HEADER = "Target Support Files/CTMediator/CTMediator-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CTMediator;
+				PRODUCT_NAME = CTMediator;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
 		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -636,50 +663,9 @@
 			};
 			name = Debug;
 		};
-		2A780BB1ACC2AFD446E77C1732A81671 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B4DF064018DB70E26F9ECD356E8FB5C /* Pods-BookShop_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		2A8D8827F1EDED05B8D3135A163ADBFB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2C61CF45BD6CEAA188419739E96C41FF /* Pods-BookShop_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		2BDB5CCF1818C2F5B8F140A1DC9542A3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 32D56E2E32461B2AD8D9507CFCBCDFD3 /* ManagerBook.release.xcconfig */;
+			baseConfigurationReference = 5E0BB074E844952E2AA0E5941D62B60A /* ManagerBook.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -701,9 +687,9 @@
 			};
 			name = Release;
 		};
-		4291B0BD82D1A4763D19A558AC80AA9F /* Release */ = {
+		2F9AD55255FC1FBBE10D0AD5D9FE014C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EC3F708158EBB6E00B0951620C26C3BA /* Pods-BookShop_Example.release.xcconfig */;
+			baseConfigurationReference = B4D5B3F96070E2674FD7148EECA9F52B /* Pods-BookShop_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -722,9 +708,29 @@
 			};
 			name = Release;
 		};
+		5E197C12430A9464530F7A9C1FBFBE94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A9EB2F197D53FFDDA3718780C4BF9B8 /* Pods-BookShop_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		9CB536B159E096A6730B8D201E1DB666 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69BEC2DA88E107EC06C2F8E4599D0ACD /* MotivationalBook.debug.xcconfig */;
+			baseConfigurationReference = A8327138BAE27DED624F086FD6D5A874 /* MotivationalBook.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -747,7 +753,7 @@
 		};
 		A6D958AB6652B888BBAE0430E6666401 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3C3AA8A19B563702C1AB9F829C7F1EDB /* ManagerBook.debug.xcconfig */;
+			baseConfigurationReference = 7B5F11550445E8138FB1CFE605D16EB5 /* ManagerBook.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -832,7 +838,7 @@
 		};
 		CA6BA5BA336B53760C703E779A7EEA03 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 02FF3F4D0ACCAEF42DF46FE15ADF049D /* MotivationalBook.release.xcconfig */;
+			baseConfigurationReference = 8698B4383875073AC6E119797D6FEF92 /* MotivationalBook.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -878,9 +884,41 @@
 			};
 			name = Release;
 		};
+		FCFE0C9D1DB58D66685402E0E4218D29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8442D5433719BD35B4D3101171A4888A /* CTMediator.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CTMediator/CTMediator-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CTMediator;
+				PRODUCT_NAME = CTMediator;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		22C7AF9D88F1C46A59445CBEBF929537 /* Build configuration list for PBXNativeTarget "Pods-BookShop_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E197C12430A9464530F7A9C1FBFBE94 /* Debug */,
+				2F9AD55255FC1FBBE10D0AD5D9FE014C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -899,20 +937,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9583AE2F4B8E4E769802C9AC8A0B0454 /* Build configuration list for PBXNativeTarget "Pods-BookShop_Example" */ = {
+		B88BA5C9D4CF728FCD317F8831484432 /* Build configuration list for PBXNativeTarget "CTMediator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2A780BB1ACC2AFD446E77C1732A81671 /* Debug */,
-				4291B0BD82D1A4763D19A558AC80AA9F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B610DEFE550D7B01B8B3C02937E5FB3F /* Build configuration list for PBXNativeTarget "Pods-BookShop_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0D75E8719B87A01477B4FEB1E88F37A3 /* Debug */,
-				2A8D8827F1EDED05B8D3135A163ADBFB /* Release */,
+				FCFE0C9D1DB58D66685402E0E4218D29 /* Debug */,
+				088BE8C96FF9E1162C0B4C4B64F38781 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

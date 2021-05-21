@@ -5,32 +5,34 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.000647">
+      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.000825">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="1: read_podspec" time="1.182856">
+      <testcase classname="fastlane.lanes" name="1: read_podspec" time="0.922273">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="2: git pull" time="1.384962">
+      <testcase classname="fastlane.lanes" name="2: git pull" time="68.656762">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="3: mkdir 0.1.2" time="0.010767">
+      <testcase classname="fastlane.lanes" name="3: mkdir 0.1.3" time="0.007896">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="4: cp /Users/guowenchao/Documents/File-Wealth/File-iOS/15-SourceCode/01-ComponentDemo/BookShop/BookShop.podspec /Users/guowenchao/.cocoapods/repos/CwenSpec/BookShop/0.1.2" time="0.016838">
+      <testcase classname="fastlane.lanes" name="4: cp /Users/guowenchao/Documents/File-Wealth/File-iOS/15-SourceCode/01-ComponentDemo/Component/ManagerBook/ManagerBook.podspec /Users/guowenchao/.cocoapods/repos/CwenSpec/ManagerBook/0.1.3" time="0.007412">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="5: git add . &amp;&amp; git commit -m &quot;tag 0.1.2&quot; &amp;&amp; git push" time="3.511388">
+      <testcase classname="fastlane.lanes" name="5: git add . &amp;&amp; git commit -m &quot;tag 0.1.3&quot; &amp;&amp; git push" time="75.12381">
+        
+          <failure message="/usr/local/Cellar/fastlane/2.156.1/libexec/gems/fastlane-2.183.2/fastlane/lib/fastlane/actions/actions_helper.rb:67:in `execute_action'&#10;/usr/local/Cellar/fastlane/2.156.1/libexec/gems/fastlane-2.183.2/fastlane/lib/fastlane/fast_file.rb:222:in `sh'&#10;/usr/local/Cellar/fastlane/2.156.1/libexec/gems/fastlane-2.183.2/fastlane/lib/fastlane/fast_file.rb:216:in `sh'&#10;Fastfile:61:in `block (3 levels) in parsing_binding'&#10;Fastfile:55:in `chdir'&#10;Fastfile:55:in `block (2 levels) in parsing_binding'&#10;/usr/local/Cellar/fastlane/2.156.1/libexec/gems/fastlane-2.183.2/fastlane/lib/fastlane/lane.rb:33:in `call'&#10;/usr/local/Cellar/fastlane/2.156.1/libexec/gems/fastlane-2.183.2/fastlane/lib/fastlane/runner.rb:49:in `block in execute'&#10;/usr/local/Cellar/fastlane/2.156.1/libexec/gems/fastlane-2.183.2/fastlane/lib/fastlane/runner.rb:45:in `chdir'&#10;/usr/local/Cellar/fastlane/2.156.1/libexec/gems/fastlane-2.183.2/fastlane/lib/fastlane/runner.rb:45:in `execute'&#10;/usr/local/Cellar/fastlane/2.156.1/libexec/gems/fastlane-2.183.2/fastlane/lib/fastlane/lane_manager.rb:47:in `cruise_lane'&#10;/usr/local/Cellar/fastlane/2.156.1/libexec/gems/fastlane-2.183.2/fastlane/lib/fastlane/command_line_handler.rb:36:in `handle'&#10;/usr/local/Cellar/fastlane/2.156.1/libexec/gems/fastlane-2.183.2/fastlane/lib/fastlane/commands_generator.rb:109:in `block (2 levels) in run'&#10;/usr/local/Cellar/fastlane/2.156.1/libexec/gems/commander-4.6.0/lib/commander/command.rb:187:in `call'&#10;/usr/local/Cellar/fastlane/2.156.1/libexec/gems/commander-4.6.0/lib/commander/command.rb:157:in `run'&#10;/usr/local/Cellar/fastlane/2.156.1/libexec/gems/commander-4.6.0/lib/commander/runner.rb:444:in `run_active_command'&#10;/usr/local/Cellar/fastlane/2.156.1/libexec/gems/fastlane-2.183.2/fastlane_core/lib/fastlane_core/ui/fastlane_runner.rb:76:in `run!'&#10;/usr/local/Cellar/fastlane/2.156.1/libexec/gems/commander-4.6.0/lib/commander/delegates.rb:18:in `run!'&#10;/usr/local/Cellar/fastlane/2.156.1/libexec/gems/fastlane-2.183.2/fastlane/lib/fastlane/commands_generator.rb:353:in `run'&#10;/usr/local/Cellar/fastlane/2.156.1/libexec/gems/fastlane-2.183.2/fastlane/lib/fastlane/commands_generator.rb:42:in `start'&#10;/usr/local/Cellar/fastlane/2.156.1/libexec/gems/fastlane-2.183.2/fastlane/lib/fastlane/cli_tools_distributor.rb:122:in `take_off'&#10;/usr/local/Cellar/fastlane/2.156.1/libexec/gems/fastlane-2.183.2/bin/fastlane:23:in `&lt;top (required)&gt;'&#10;/usr/local/Cellar/fastlane/2.156.1/libexec/bin/fastlane:23:in `load'&#10;/usr/local/Cellar/fastlane/2.156.1/libexec/bin/fastlane:23:in `&lt;main&gt;'&#10;&#10;Exit status of command 'git add . &amp;&amp; git commit -m &quot;tag 0.1.3&quot; &amp;&amp; git push' was 128 instead of 0.&#10;[master 06d6cae] tag 0.1.3&#10; 2 files changed, 42 insertions(+)&#10; create mode 100644 ManagerBook/0.1.3/ManagerBook.podspec&#10;fatal: unable to access 'https://github.com/wenchao8023/CwenSpec.git/': Failed to connect to github.com port 443: Operation timed out&#10;" />
         
       </testcase>
     

@@ -1,6 +1,6 @@
 CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/CTMediator" "${PODS_ROOT}/Headers/Public/ManagerBook" "${PODS_ROOT}/Headers/Public/MotivationalBook"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/BookShop" "${PODS_ROOT}/Headers/Public/CTMediator" "${PODS_ROOT}/Headers/Public/ManagerBook" "${PODS_ROOT}/Headers/Public/MotivationalBook"
 LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/BookShop" "${PODS_CONFIGURATION_BUILD_DIR}/CTMediator" "${PODS_CONFIGURATION_BUILD_DIR}/ManagerBook" "${PODS_CONFIGURATION_BUILD_DIR}/MotivationalBook"
 OTHER_LDFLAGS = $(inherited) -ObjC -l"BookShop" -l"CTMediator" -l"ManagerBook" -l"MotivationalBook" -framework "CoreGraphics" -framework "Foundation"
 PODS_BUILD_DIR = ${BUILD_DIR}

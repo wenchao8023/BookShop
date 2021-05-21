@@ -58,7 +58,7 @@ platform :ios do
 				sh("mkdir #{version}")
 				sh("cp #{root_path}/#{component}.podspec #{spec_path}/#{component}/#{version}")
 			end
-			sh("git add . && git commit -m \"tag #{version}\" && git push")	
+			sh("git add . && git commit -m \"#{component} tag #{version}\" && git push")	
 		end
 		UI.success("【Info】#{component}----repo: #{version}")
 	end

@@ -19,15 +19,41 @@ default_platform(:ios)
 platform :ios do
 	# 项目根目录
 	root_path = Pathname::new(File::dirname(__FILE__)).realpath.parent
+	# root_path = "#{Dir.pwd}"
 	# 私有仓库 Repo 目录
-	spec_path = "#{Dir.home}/.cocoapods/repos/CwenSpec"
+	spec_path = "#{Dir.home}/.cocoapods/repos/CwenSpec/"
 	# 当前组件
 	component = "BookShop"
 	# 当前分支
 	branch = "master"
 
-	desc "更新 spec 版本号"
-	lane :update_podspec do
+	desc "更新组件 spec 版本号"
+	lane :podspec_update do
+		podspec_update(root_path, branch, component)
+	end
+
+	desc "更新组件 tag"
+	lane :tag_update do
+		tag_update(branch, component)
+	end
+
+	desc "更新组件 repo"
+	lane :repo_update do
+		repo_update(root_path, spec_path, component)
+	end
+
+	desc "一次更新所有"
+	lane :update_all do
+		podspec_update(root_path, branch, component)
+		sh("cd #{root_path}")
+		tag_update(branch, component)
+		repo_update(root_path, spec_path, component)
+	end
+
+
+	desc "更新组件 spec 版本号"
+	def podspec_update(root_path, branch, component)
+		UI.success("\n【Info】更新组件 spec 版本号\n")
 		ensure_git_branch(branch: "#{branch}")
 		git_pull
 		version = version_bump_podspec(path: "#{component}.podspec", bump_type: "patch")
@@ -36,11 +62,14 @@ platform :ios do
 	end
 
 	desc "更新组件 tag"
-	lane :update_tag do
+	def tag_update(branch, component)
+		UI.success("\n【Info】更新组件 tag\n")
 		ensure_git_branch(branch: "#{branch}")
 		spec = read_podspec
 		version = spec["version"]
 		sh("git add . && git commit -m \"tag #{version}\"")	
+		git_add
+		git_commit(path: "./*.*", message: "tag #{version}")
 		ensure_git_status_clean
 		push_to_git_remote
 		add_git_tag(tag: version)
@@ -48,17 +77,19 @@ platform :ios do
 		UI.success("【Info】#{component}----tag: #{version}----#{branch}")
 	end
 
-	desc "推送 repo"
-	lane :push_repo do
+	desc "更新组件 repo"
+	def repo_update(root_path, spec_path, component)
+		UI.success("\n【Info】更新组件 repo\n")
 		spec = read_podspec
 		version = spec["version"]
 		Dir.chdir(spec_path) do
+			UI.success("【Info】#{Dir.pwd}----repo: #{version}")
 			sh("git pull")
 			Dir.chdir("#{spec_path}/#{component}") do
 				sh("mkdir #{version}")
 				sh("cp #{root_path}/#{component}.podspec #{spec_path}/#{component}/#{version}")
 			end
-			sh("git add . && git commit -m \"#{component} tag #{version}\" && git push")	
+			sh("git add . && git commit -m \"#{component} tag #{version}\" && git push")
 		end
 		UI.success("【Info】#{component}----repo: #{version}")
 	end

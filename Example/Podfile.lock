@@ -1,18 +1,15 @@
 PODS:
   - BookShop (0.1.2):
     - CTMediator
+    - MotivationalBook (= 0.1.6)
   - CTMediator (46)
-  - ManagerBook (0.1.2)
-  - MotivationalBook (0.1.1)
+  - MotivationalBook (0.1.6)
 
 DEPENDENCIES:
   - BookShop (from `../`)
-  - ManagerBook (~> 0.1.0)
-  - MotivationalBook (~> 0.1.0)
 
 SPEC REPOS:
   https://github.com/wenchao8023/CwenSpec.git:
-    - ManagerBook
     - MotivationalBook
   https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
     - CTMediator
@@ -22,11 +19,10 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BookShop: 9be8ef06211227931355ba65e1019d16fc0255c8
+  BookShop: 6a748005d14efb40fdf97e0c67e9bde123571012
   CTMediator: f1cf58d509fb3192086c367711f039efd769b907
-  ManagerBook: 67becb73e54281fbe2e8522ce7658dc4d99b1e21
-  MotivationalBook: dcd97b0155ff71fb893293c2aab0fdd949ed92f1
+  MotivationalBook: 2450a2fd68a7c90662826b2d1e87ab89a2631a30
 
-PODFILE CHECKSUM: fc9f09820759961d2cf2fccb5b3c3e0ae679442d
+PODFILE CHECKSUM: 136d4acd95176cfe07dfe96886c31f6a8a2c41f6
 
 COCOAPODS: 1.10.1

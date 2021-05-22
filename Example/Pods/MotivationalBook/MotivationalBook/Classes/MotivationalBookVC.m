@@ -16,8 +16,20 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    UILabel *bookNameLabel = [[UILabel alloc] init];
+    bookNameLabel.text = @"励志类书籍";
+    bookNameLabel.textAlignment = NSTextAlignmentCenter;
+    [self.view addSubview:bookNameLabel];
+    bookNameLabel.bounds = CGRectMake(0, 0, 150, 20);
+    bookNameLabel.center = self.view.center;
+    
+    self.view.backgroundColor = UIColor.systemRedColor;
 }
 
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 /*
 #pragma mark - Navigation
 

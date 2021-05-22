@@ -16,21 +16,26 @@ or alternatively using `brew install fastlane`
 
 # Available Actions
 ## iOS
-### ios update_podspec
+### ios podspec_update
 ```
-fastlane ios update_podspec
+fastlane ios podspec_update
 ```
-更新 spec 版本号
-### ios update_tag
+更新组件 spec 版本号
+### ios tag_update
 ```
-fastlane ios update_tag
+fastlane ios tag_update
 ```
 更新组件 tag
-### ios push_repo
+### ios repo_update
 ```
-fastlane ios push_repo
+fastlane ios repo_update
 ```
-推送 repo
+更新组件 repo
+### ios update_all
+```
+fastlane ios update_all
+```
+一次更新所有
 
 ----
 

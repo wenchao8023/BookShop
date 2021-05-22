@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/wenchao8023/BookShop'
+  s.homepage         = 'https://github.com/wenchao8023/CwenSpec.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'wenchao8023' => '15629120502@163.com' }
@@ -32,6 +32,9 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'BookShop/Classes/**/*'
   s.dependency 'CTMediator'
+#  s.dependency 'ManagerBook', '0.1.8'
+  s.dependency 'MotivationalBook', '0.1.6'
+  
   # s.resource_bundles = {
   #   'BookShop' => ['BookShop/Assets/*.png']
   # }

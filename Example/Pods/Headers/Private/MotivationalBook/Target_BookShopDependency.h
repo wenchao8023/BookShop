@@ -1,0 +1,1 @@
+../../../MotivationalBook/MotivationalBook/Classes/Target_BookShopDependency.h

@@ -3,7 +3,7 @@
   "version": "0.1.2",
   "summary": "A short description of BookShop.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/wenchao8023/BookShop",
+  "homepage": "https://github.com/wenchao8023/CwenSpec.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -22,6 +22,9 @@
   "dependencies": {
     "CTMediator": [
 
+    ],
+    "MotivationalBook": [
+      "0.1.6"
     ]
   }
 }

@@ -33,7 +33,7 @@ TODO: Add long description of the pod here.
   s.source_files = 'BookShop/Classes/**/*'
   s.dependency 'CTMediator'
 #  s.dependency 'ManagerBook', '0.1.8'
-  s.dependency 'MotivationalBook', '0.1.6'
+  s.dependency 'MotivationalBook', '0.1.9'
   
   # s.resource_bundles = {
   #   'BookShop' => ['BookShop/Assets/*.png']

@@ -1,9 +1,9 @@
 PODS:
   - BookShop (0.1.2):
     - CTMediator
-    - MotivationalBook (= 0.1.6)
+    - MotivationalBook (= 0.1.9)
   - CTMediator (46)
-  - MotivationalBook (0.1.6)
+  - MotivationalBook (0.1.9)
 
 DEPENDENCIES:
   - BookShop (from `../`)
@@ -19,9 +19,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BookShop: 6a748005d14efb40fdf97e0c67e9bde123571012
+  BookShop: 3af24afee2525c08e786ba084639fe38183a3d6f
   CTMediator: f1cf58d509fb3192086c367711f039efd769b907
-  MotivationalBook: 2450a2fd68a7c90662826b2d1e87ab89a2631a30
+  MotivationalBook: ca1286bbde3768f681472dccfb0f76deaff3ae4c
 
 PODFILE CHECKSUM: 136d4acd95176cfe07dfe96886c31f6a8a2c41f6
 

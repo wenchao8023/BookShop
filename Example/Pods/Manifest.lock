@@ -19,10 +19,10 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BookShop: 3af24afee2525c08e786ba084639fe38183a3d6f
+  BookShop: b92fd2d5ea0e6bd026535c6ee1d5fe2f2edcad29
   CTMediator: f1cf58d509fb3192086c367711f039efd769b907
   MotivationalBook: ca1286bbde3768f681472dccfb0f76deaff3ae4c
 
 PODFILE CHECKSUM: 136d4acd95176cfe07dfe96886c31f6a8a2c41f6
 
-COCOAPODS: 1.10.1
+COCOAPODS: 1.9.3

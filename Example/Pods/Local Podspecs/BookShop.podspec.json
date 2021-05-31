@@ -26,5 +26,10 @@
     "MotivationalBook": [
       "0.1.9"
     ]
+  },
+  "resource_bundles": {
+    "BookShop": [
+      "BookShop/Assets/*.png"
+    ]
   }
 }

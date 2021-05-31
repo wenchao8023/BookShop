@@ -7,6 +7,7 @@
 
 #import "BussinessViewController.h"
 #import "CTMediator+Bussiness.h"
+#import "UIImage+BookShop.h"
 
 @interface BussinessViewController ()
 
@@ -25,6 +26,8 @@
     [self.view addSubview:button];
     button.bounds = CGRectMake(0, 0, 150, 40);
     button.center = self.view.center;
+    
+    self.view.layer.contents = (__bridge id _Nullable)([UIImage bs_imageWithName:@"背景"].CGImage);
 }
 
 - (void)onGetHotBook {

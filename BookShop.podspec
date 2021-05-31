@@ -35,9 +35,9 @@ TODO: Add long description of the pod here.
 #  s.dependency 'ManagerBook', '0.1.8'
   s.dependency 'MotivationalBook', '0.1.9'
   
-  # s.resource_bundles = {
-  #   'BookShop' => ['BookShop/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'BookShop' => ['BookShop/Assets/*.png']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

@@ -9,3 +9,7 @@ platform :ios, '9.0'
 target 'BookShop_Example' do
   pod 'BookShop', :path => '../'
 end
+
+#target 'BSell' do
+#  pod 'BookShop', :path => '../'
+#end

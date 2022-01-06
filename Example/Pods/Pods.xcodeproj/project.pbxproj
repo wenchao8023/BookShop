@@ -7,191 +7,141 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0184D4AB8AB52ECF726E220516DFBBB2 /* Icon-29.png in Resources */ = {isa = PBXBuildFile; fileRef = 78DA820172C516D19008EA9D32FBC94D /* Icon-29.png */; };
-		033F3F8438C924C3935067C0EAE175C1 /* CTMediator+Bussiness.h in Headers */ = {isa = PBXBuildFile; fileRef = 088413D9C3B216633AFD9B26D013E035 /* CTMediator+Bussiness.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		04D5409D9CC1776755602CA86C8E5830 /* 感知测试黑龙江@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5C0DB9F4CE9E02AEC9B5A9D8A7B1856 /* 感知测试黑龙江@2x.png */; };
-		0EA949BB92CE4390F54188B093517D2F /* CTMediator+HandyTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CDDE991A9833755497BC565A80AA6BB /* CTMediator+HandyTools.m */; };
-		104F703B10EEF696C6F3B547F2889454 /* Icon-114.png in Resources */ = {isa = PBXBuildFile; fileRef = 28DD3AEF313DC947068C67A9DC236FB6 /* Icon-114.png */; };
-		2CB595D4FB4EA1D9CCF98676CA403363 /* 睁开眼睛@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2491244C25626DE97F51677EC4893F40 /* 睁开眼睛@2x.png */; };
-		3E77DFF629379527E5BD069BE834D98A /* Icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 72A34F4BDC5C3AE6F48FE320817DED27 /* Icon-120.png */; };
-		44E727747DFBDC6CD6F0BD790D256624 /* MotivationalBook-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1456BA5D88388DECF62C48B9CF691289 /* MotivationalBook-dummy.m */; };
-		451C7DED203131C03EF87A991C275E57 /* CTMediator+Bussiness.m in Sources */ = {isa = PBXBuildFile; fileRef = B28327C5418BE229E5AB261D01EA282E /* CTMediator+Bussiness.m */; };
-		4FD112109D9B1653BBAE7CC5F0B6993B /* 使用指导3.png in Resources */ = {isa = PBXBuildFile; fileRef = 11A6D0C3F8778206F0ED76F12B042DD3 /* 使用指导3.png */; };
-		57DA244F58F83128E38D452AAB50FC03 /* 使用指导1.png in Resources */ = {isa = PBXBuildFile; fileRef = B8EBB123BD30FBEAD4B955F4CE36B681 /* 使用指导1.png */; };
-		58171BA33A94994CFB9F335E3A9894C6 /* 使用指导2.png in Resources */ = {isa = PBXBuildFile; fileRef = 94920D45B231E0781888B502E439A193 /* 使用指导2.png */; };
-		634040734BE61CA3EF8D8C415BF5CD89 /* 进入.png in Resources */ = {isa = PBXBuildFile; fileRef = E8BDC13949B1FE4B18C69A770BBBE304 /* 进入.png */; };
-		681978E1DB3FCBEFE5765A57D4AB6DBB /* 指示点_未选中.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FD44F768168214A6802E29647E67244 /* 指示点_未选中.png */; };
-		6861AC6DF685D80B946DD3E7341B7EF0 /* 闭上眼睛@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1616E46BA6673DFC5AF2B79F2C939A24 /* 闭上眼睛@2x.png */; };
-		6BC5818E559E2F3305534EF0C5F35707 /* CTMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = A9DC137BD991D80CEA54AAABD2F2B976 /* CTMediator.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6ED43DC5A3190BDD963C603F27F8E616 /* Icon-58.png in Resources */ = {isa = PBXBuildFile; fileRef = BB47CB8E32108D918554418475E92B3B /* Icon-58.png */; };
-		70251DA7E170ADCC633E628DBAE6466F /* 睁开眼睛.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BE1A9A4477EF2FF011D768AD884A868 /* 睁开眼睛.png */; };
-		70F0485C07A43B21301D5D1ACAFBCAE0 /* 电话@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D821464DA9FD13C9325F55A6170EE76B /* 电话@2x.png */; };
-		76DF23469BB1F1C9B3C74ED314249D35 /* BussinessViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E5D304CAAE59B3E226F930674140FF67 /* BussinessViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7DFA0B014BBFC3C62016999D957FC6C2 /* qrcode.png in Resources */ = {isa = PBXBuildFile; fileRef = E9838F3DA46AE6910F5215AB38F3C530 /* qrcode.png */; };
+		03BA063D38F626C27256B663E775E200 /* CTMediator+HandyTools.h in Headers */ = {isa = PBXBuildFile; fileRef = DA1B3C539970634E28C757C1D1CFE60A /* CTMediator+HandyTools.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1A42BA8FCBDEC41C1D7894942573B001 /* CTMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A07A39FE754774710DAB76B60BEF9D /* CTMediator-dummy.m */; };
+		28F27B514A2A462481DB8A8487A5FD8E /* 背景.png in Resources */ = {isa = PBXBuildFile; fileRef = D994CE3815D7DD0C6EB2224BFFBDF771 /* 背景.png */; };
+		381718E913090CF1C52D7B5F4DFFE498 /* CTMediator+HandyTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CDDE991A9833755497BC565A80AA6BB /* CTMediator+HandyTools.m */; };
+		5129BD901F2A75BFB29DD3B1E341919F /* Target_BookShopDependency.h in Headers */ = {isa = PBXBuildFile; fileRef = 162C8A75088AAE4DAB5B1D3C69E72DCF /* Target_BookShopDependency.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		53290C09CDC6214D7512CD5E5BE51F48 /* Target_BookShopDependency.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7555B634F4256EBD404753672B1229 /* Target_BookShopDependency.m */; };
+		5417C29D031315063B14681C1A929484 /* MotivationalBookVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 12E3297F30F54D6A17536137B4889E9D /* MotivationalBookVC.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		59CD6D694C928E5A898257E222AA38BE /* MotivationalBookVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B27E16D3C2E15BBD86911FBCB23113 /* MotivationalBookVC.m */; };
+		5F85FF7EF533B16B9D3FA8C88E8F068E /* CTMediator+Bussiness.m in Sources */ = {isa = PBXBuildFile; fileRef = 005435FD0D50CE1FC9DFACB631AE9F0A /* CTMediator+Bussiness.m */; };
+		71AC6E9172D1651276AC0A6D1D02922B /* BussinessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6195CC715735D849F4082624E43C7A11 /* BussinessViewController.m */; };
 		8081E0C506F57343744E0C7B584C7FD4 /* Pods-BookShop_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F75B8E1C353191EF4438EE1789B83DF /* Pods-BookShop_Example-dummy.m */; };
-		81EDE901E78E6DCFEF7A31975D07A8FB /* Target_BookShopDependency.h in Headers */ = {isa = PBXBuildFile; fileRef = 162C8A75088AAE4DAB5B1D3C69E72DCF /* Target_BookShopDependency.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		874665B0133944D31385157FFF005DFB /* 锁头.png in Resources */ = {isa = PBXBuildFile; fileRef = C48A3EDB73535261A9EB71D233FF7B58 /* 锁头.png */; };
-		8CF12BFC0F9EAB0CAED43CEB47FE8DBE /* CTMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A07A39FE754774710DAB76B60BEF9D /* CTMediator-dummy.m */; };
-		942AE8B82664B31E00AC9FA7 /* UIImage+BookShop.h in Headers */ = {isa = PBXBuildFile; fileRef = 942AE8B62664B31D00AC9FA7 /* UIImage+BookShop.h */; };
-		942AE8B92664B31E00AC9FA7 /* UIImage+BookShop.m in Sources */ = {isa = PBXBuildFile; fileRef = 942AE8B72664B31D00AC9FA7 /* UIImage+BookShop.m */; };
-		96E5E6D7240664AF392C79BF5DC03C4B /* 背景.png in Resources */ = {isa = PBXBuildFile; fileRef = 59E0313138955093D517E130D0FF6FF9 /* 背景.png */; };
-		9BDCE1715F6B581E24D886BB74BF8641 /* 电话.png in Resources */ = {isa = PBXBuildFile; fileRef = FF51E5F583D858FA64476852842A6391 /* 电话.png */; };
-		AAA5F52150EBAB2E65EE4BCEC9A1A325 /* BookShop-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B37C9FE0AADD317FAF50EAD563B7B2FF /* BookShop-dummy.m */; };
-		B0940EF6E71939082723F827C3E10461 /* MotivationalBookVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B27E16D3C2E15BBD86911FBCB23113 /* MotivationalBookVC.m */; };
-		B759D14B85B072AC4298AF1917490105 /* bgmain.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C55091AF98028CFBF4AE7EB68FE51B /* bgmain.png */; };
-		B7E59B9545EBE17D6151BA1F9783647B /* 感知测试黑龙江.png in Resources */ = {isa = PBXBuildFile; fileRef = 42DC2FF31FEE76F19CB1BD5673205334 /* 感知测试黑龙江.png */; };
-		C2C1C5CA7077A979C2A75D35FBC7C0CA /* CTMediator+HandyTools.h in Headers */ = {isa = PBXBuildFile; fileRef = DA1B3C539970634E28C757C1D1CFE60A /* CTMediator+HandyTools.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C799C6367D3B24B7DD3BF84CA415C8EE /* MotivationalBookVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 12E3297F30F54D6A17536137B4889E9D /* MotivationalBookVC.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D1916359266EDAA8AA5F153C1AF53B76 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DCCFDA8FFADA4246EBB38EE4BBF317F /* logo.png */; };
-		D47EE478EC100E034E41C86E965E0CD7 /* 锁头@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E8E1003D83E7974D5E161FD4223DC18 /* 锁头@2x.png */; };
-		D4E20ABBD0FE3514330DF3EC6E677004 /* BussinessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B067367B44DEE59515B922A7026212 /* BussinessViewController.m */; };
-		DFC6C37B347AB16B3C8995EFD8A1D238 /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A57F1A67BD270624286E04B91BD89ED /* CTMediator.m */; };
-		E5E3CC76DFB85EF259378988BB9DE601 /* 闭上眼睛.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C14117A1890A444FFE5BF38994D5E95 /* 闭上眼睛.png */; };
-		ECEE3459536CD0BEA8A3963F5201BEF3 /* Target_BookShopDependency.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7555B634F4256EBD404753672B1229 /* Target_BookShopDependency.m */; };
-		F6238E19FC7EA93E769D455830E496E9 /* 指示点_选中.png in Resources */ = {isa = PBXBuildFile; fileRef = A87E731A1B3931CCEE22B18D58E239A4 /* 指示点_选中.png */; };
-		FC12D5FFDEA40A88DBE61E6D747F9CD5 /* Icon-57.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B4B34C938CB417FDEA0F461EC330E14 /* Icon-57.png */; };
-		FF4C53D9A98A50457AB2E38A8AEEAFE6 /* Icon-80.png in Resources */ = {isa = PBXBuildFile; fileRef = 73F5AF02D42D150A1B08BDBBAF521A0B /* Icon-80.png */; };
+		9CD14E65D4796975FED334582624D018 /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A57F1A67BD270624286E04B91BD89ED /* CTMediator.m */; };
+		A75CABD7A9AC8450D76F4D848FA796B2 /* MotivationalBook-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1456BA5D88388DECF62C48B9CF691289 /* MotivationalBook-dummy.m */; };
+		B60F195A301DE98BDEF8D190018C6508 /* UIImage+BookShop.h in Headers */ = {isa = PBXBuildFile; fileRef = DC318E66986A72389A8BD861C13D7432 /* UIImage+BookShop.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D7B5CD46193A7224E5B94DB855FC88D3 /* CTMediator+Bussiness.h in Headers */ = {isa = PBXBuildFile; fileRef = 325A8FC235C07029AB67C20139813B0B /* CTMediator+Bussiness.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D9E3ED18F04EE29E5F618D6E962837CE /* CTMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = A9DC137BD991D80CEA54AAABD2F2B976 /* CTMediator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E4A2927EADCF48653F2433446358F2AB /* UIImage+BookShop.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA0184E2D19FB72D0357B11549356B6 /* UIImage+BookShop.m */; };
+		F0CF3A575474886E10527FDC85A47CA4 /* BookShop-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CDC136E9498586F3D25C6247D5C616 /* BookShop-dummy.m */; };
+		F0D153A92CE33B7642752EBEBB9BC584 /* BussinessViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 90563EA4F4DFA4E6BD73AFF22220D0F7 /* BussinessViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2F980BC1C4F94E372ADABBB1A8551E94 /* PBXContainerItemProxy */ = {
+		0BBDEB38C1806625CEA832283A6FFC3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB60C5C230110035501DEAA59B3F06CF;
+			remoteInfo = MotivationalBook;
+		};
+		486ED8C7B5DE54B2497F65815D6A80A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB60C5C230110035501DEAA59B3F06CF;
+			remoteInfo = MotivationalBook;
+		};
+		8655A8F800CF908D344F8C7E53BB1919 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6A222DBB9D71B481EE8F2DACD77F8A61;
 			remoteInfo = CTMediator;
 		};
-		6774A525B63508B004B430EDF0DB6EE7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6A222DBB9D71B481EE8F2DACD77F8A61;
-			remoteInfo = CTMediator;
-		};
-		73EC77E46F6A08568855528760113FA1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A4C1EDBDE7CF69C96BABCF2C432ED849;
-			remoteInfo = "BookShop-BookShop";
-		};
-		75FAFF0D5C3947C27E5BF456C27A4E65 /* PBXContainerItemProxy */ = {
+		A39D0FA835526798594487402D9EB8F3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = DACAA0D13C1197AC953B55496C5C1730;
 			remoteInfo = BookShop;
 		};
-		A8069A715A43FFF5D0FA45DEDA0A61F7 /* PBXContainerItemProxy */ = {
+		D2B84594749865174DC54DB6FBF60604 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BB60C5C230110035501DEAA59B3F06CF;
-			remoteInfo = MotivationalBook;
+			remoteGlobalIDString = 6A222DBB9D71B481EE8F2DACD77F8A61;
+			remoteInfo = CTMediator;
 		};
-		E1B7661C5F60A6EA186B767D612A5E65 /* PBXContainerItemProxy */ = {
+		E82D80D684F173626387C25021B1EC35 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BB60C5C230110035501DEAA59B3F06CF;
-			remoteInfo = MotivationalBook;
+			remoteGlobalIDString = A4C1EDBDE7CF69C96BABCF2C432ED849;
+			remoteInfo = "BookShop-BookShop";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		088413D9C3B216633AFD9B26D013E035 /* CTMediator+Bussiness.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTMediator+Bussiness.h"; path = "BookShop/Classes/Bussiness/CTMediator+Bussiness.h"; sourceTree = "<group>"; };
+		005435FD0D50CE1FC9DFACB631AE9F0A /* CTMediator+Bussiness.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+Bussiness.m"; sourceTree = "<group>"; };
 		0A57F1A67BD270624286E04B91BD89ED /* CTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTMediator.m; path = CTMediator/CTMediator/CTMediator.m; sourceTree = "<group>"; };
-		0C14117A1890A444FFE5BF38994D5E95 /* 闭上眼睛.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "闭上眼睛.png"; path = "BookShop/Assets/闭上眼睛.png"; sourceTree = "<group>"; };
-		11A6D0C3F8778206F0ED76F12B042DD3 /* 使用指导3.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "使用指导3.png"; path = "BookShop/Assets/使用指导3.png"; sourceTree = "<group>"; };
 		12E3297F30F54D6A17536137B4889E9D /* MotivationalBookVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MotivationalBookVC.h; path = MotivationalBook/Classes/MotivationalBookVC.h; sourceTree = "<group>"; };
 		1456BA5D88388DECF62C48B9CF691289 /* MotivationalBook-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MotivationalBook-dummy.m"; sourceTree = "<group>"; };
-		1616E46BA6673DFC5AF2B79F2C939A24 /* 闭上眼睛@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "闭上眼睛@2x.png"; path = "BookShop/Assets/闭上眼睛@2x.png"; sourceTree = "<group>"; };
 		162C8A75088AAE4DAB5B1D3C69E72DCF /* Target_BookShopDependency.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Target_BookShopDependency.h; path = MotivationalBook/Classes/Target_BookShopDependency.h; sourceTree = "<group>"; };
 		16A117C268EDCD49E69F46F098AAFFFF /* Pods-BookShop_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BookShop_Example.release.xcconfig"; sourceTree = "<group>"; };
+		16D788123E86A77BA9BFB4EBC8FE11DC /* BookShop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BookShop.debug.xcconfig; sourceTree = "<group>"; };
+		1A95B643E873ABB785408C0F8BCE0EA4 /* BookShop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BookShop.release.xcconfig; sourceTree = "<group>"; };
 		1CDDE991A9833755497BC565A80AA6BB /* CTMediator+HandyTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+HandyTools.m"; path = "CTMediator/CTMediator/CTMediator+HandyTools.m"; sourceTree = "<group>"; };
 		1F75B8E1C353191EF4438EE1789B83DF /* Pods-BookShop_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BookShop_Example-dummy.m"; sourceTree = "<group>"; };
 		20B27E16D3C2E15BBD86911FBCB23113 /* MotivationalBookVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MotivationalBookVC.m; path = MotivationalBook/Classes/MotivationalBookVC.m; sourceTree = "<group>"; };
-		2491244C25626DE97F51677EC4893F40 /* 睁开眼睛@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "睁开眼睛@2x.png"; path = "BookShop/Assets/睁开眼睛@2x.png"; sourceTree = "<group>"; };
-		264D3126B4E33BD96687E3E5C266F9CF /* BookShop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BookShop.debug.xcconfig; sourceTree = "<group>"; };
-		26CD9484367284C8608833306AB07C71 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		28DD3AEF313DC947068C67A9DC236FB6 /* Icon-114.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Icon-114.png"; path = "BookShop/Assets/Icon-114.png"; sourceTree = "<group>"; };
+		246A49BF6F0EB6B1F4D30141D01BFDD9 /* ResourceBundle-BookShop-BookShop-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-BookShop-BookShop-Info.plist"; sourceTree = "<group>"; };
 		2B847B50C821AE69A01091BF5767EAA0 /* MotivationalBook-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MotivationalBook-prefix.pch"; sourceTree = "<group>"; };
+		325A8FC235C07029AB67C20139813B0B /* CTMediator+Bussiness.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator+Bussiness.h"; sourceTree = "<group>"; };
+		32CDC136E9498586F3D25C6247D5C616 /* BookShop-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BookShop-dummy.m"; sourceTree = "<group>"; };
 		33D19EF877113A7D85AB210B9B0116F2 /* Pods-BookShop_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BookShop_Example-resources.sh"; sourceTree = "<group>"; };
 		35A07A39FE754774710DAB76B60BEF9D /* CTMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediator-dummy.m"; sourceTree = "<group>"; };
 		3826EC4945F5BC83A56F12F414336AB8 /* Pods-BookShop_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BookShop_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3E8E1003D83E7974D5E161FD4223DC18 /* 锁头@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "锁头@2x.png"; path = "BookShop/Assets/锁头@2x.png"; sourceTree = "<group>"; };
-		41C55091AF98028CFBF4AE7EB68FE51B /* bgmain.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = bgmain.png; path = BookShop/Assets/bgmain.png; sourceTree = "<group>"; };
-		42DC2FF31FEE76F19CB1BD5673205334 /* 感知测试黑龙江.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "感知测试黑龙江.png"; path = "BookShop/Assets/感知测试黑龙江.png"; sourceTree = "<group>"; };
+		4DA0184E2D19FB72D0357B11549356B6 /* UIImage+BookShop.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BookShop.m"; sourceTree = "<group>"; };
 		4E7DDA4CD048542CD583D1F44EB6970F /* Pods-BookShop_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BookShop_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		50E93E65112EC9FCACABD8909B6AF56B /* CTMediator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediator.debug.xcconfig; sourceTree = "<group>"; };
-		55F1C65563348EB9CB772FD8286BF321 /* BookShop.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = BookShop.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		59E0313138955093D517E130D0FF6FF9 /* 背景.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "背景.png"; path = "BookShop/Assets/背景.png"; sourceTree = "<group>"; };
 		603D43370965036A68ECC06395A9889E /* Pods-BookShop_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BookShop_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		654CA89DA9A01E5634F348B45C5859E7 /* BookShop-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BookShop-prefix.pch"; sourceTree = "<group>"; };
-		68FD71EBA2CC98523D3AACCE8A0D43C8 /* libCTMediator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCTMediator.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6195CC715735D849F4082624E43C7A11 /* BussinessViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BussinessViewController.m; sourceTree = "<group>"; };
+		68B59F0C91E5DEA41A67D5E1A43390C3 /* BookShop.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BookShop.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		68FD71EBA2CC98523D3AACCE8A0D43C8 /* libCTMediator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCTMediator.a; path = libCTMediator.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		69728CEE8EDE3E631B1B498D1E24BD85 /* MotivationalBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MotivationalBook.release.xcconfig; sourceTree = "<group>"; };
-		6BE1A9A4477EF2FF011D768AD884A868 /* 睁开眼睛.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "睁开眼睛.png"; path = "BookShop/Assets/睁开眼睛.png"; sourceTree = "<group>"; };
-		6FD44F768168214A6802E29647E67244 /* 指示点_未选中.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "指示点_未选中.png"; path = "BookShop/Assets/指示点_未选中.png"; sourceTree = "<group>"; };
-		71876B99884186C43083D22F93B68B30 /* BookShop.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookShop.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		7292398C17AA2618FEFE5BCF07FD7A29 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		72A34F4BDC5C3AE6F48FE320817DED27 /* Icon-120.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Icon-120.png"; path = "BookShop/Assets/Icon-120.png"; sourceTree = "<group>"; };
-		73F5AF02D42D150A1B08BDBBAF521A0B /* Icon-80.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Icon-80.png"; path = "BookShop/Assets/Icon-80.png"; sourceTree = "<group>"; };
-		78DA820172C516D19008EA9D32FBC94D /* Icon-29.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Icon-29.png"; path = "BookShop/Assets/Icon-29.png"; sourceTree = "<group>"; };
-		7B4B34C938CB417FDEA0F461EC330E14 /* Icon-57.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Icon-57.png"; path = "BookShop/Assets/Icon-57.png"; sourceTree = "<group>"; };
+		71876B99884186C43083D22F93B68B30 /* BookShop.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = BookShop.bundle; path = "BookShop-BookShop.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		860F04A6C6F9D29939DB0DE2E7F908EE /* CTMediator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediator.release.xcconfig; sourceTree = "<group>"; };
-		8DCCFDA8FFADA4246EBB38EE4BBF317F /* logo.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = logo.png; path = BookShop/Assets/logo.png; sourceTree = "<group>"; };
-		942AE8B62664B31D00AC9FA7 /* UIImage+BookShop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIImage+BookShop.h"; path = "BookShop/Classes/Category/UIImage+BookShop.h"; sourceTree = "<group>"; };
-		942AE8B72664B31D00AC9FA7 /* UIImage+BookShop.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "UIImage+BookShop.m"; path = "BookShop/Classes/Category/UIImage+BookShop.m"; sourceTree = "<group>"; };
-		94920D45B231E0781888B502E439A193 /* 使用指导2.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "使用指导2.png"; path = "BookShop/Assets/使用指导2.png"; sourceTree = "<group>"; };
-		98B067367B44DEE59515B922A7026212 /* BussinessViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BussinessViewController.m; path = BookShop/Classes/Bussiness/BussinessViewController.m; sourceTree = "<group>"; };
+		90563EA4F4DFA4E6BD73AFF22220D0F7 /* BussinessViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BussinessViewController.h; sourceTree = "<group>"; };
 		9A363D3B682C2CF7A9B900C1430E5CF2 /* CTMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-prefix.pch"; sourceTree = "<group>"; };
-		9A53DD1D0E10F3BB0ED003655EC1C952 /* BookShop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BookShop.release.xcconfig; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A59B7CD172E3A5359F1222AE31DEFCA3 /* libMotivationalBook.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMotivationalBook.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		A5C0DB9F4CE9E02AEC9B5A9D8A7B1856 /* 感知测试黑龙江@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "感知测试黑龙江@2x.png"; path = "BookShop/Assets/感知测试黑龙江@2x.png"; sourceTree = "<group>"; };
-		A87E731A1B3931CCEE22B18D58E239A4 /* 指示点_选中.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "指示点_选中.png"; path = "BookShop/Assets/指示点_选中.png"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A59B7CD172E3A5359F1222AE31DEFCA3 /* libMotivationalBook.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMotivationalBook.a; path = libMotivationalBook.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9DC137BD991D80CEA54AAABD2F2B976 /* CTMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTMediator.h; path = CTMediator/CTMediator/CTMediator.h; sourceTree = "<group>"; };
-		B28327C5418BE229E5AB261D01EA282E /* CTMediator+Bussiness.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+Bussiness.m"; path = "BookShop/Classes/Bussiness/CTMediator+Bussiness.m"; sourceTree = "<group>"; };
-		B37C9FE0AADD317FAF50EAD563B7B2FF /* BookShop-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BookShop-dummy.m"; sourceTree = "<group>"; };
-		B8EBB123BD30FBEAD4B955F4CE36B681 /* 使用指导1.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "使用指导1.png"; path = "BookShop/Assets/使用指导1.png"; sourceTree = "<group>"; };
+		AEF5F8EF32C7BB87819180EC18A014E0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		B9A088E176291D90EA2C629C8D93EDA5 /* MotivationalBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MotivationalBook.debug.xcconfig; sourceTree = "<group>"; };
-		BB47CB8E32108D918554418475E92B3B /* Icon-58.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Icon-58.png"; path = "BookShop/Assets/Icon-58.png"; sourceTree = "<group>"; };
-		C48A3EDB73535261A9EB71D233FF7B58 /* 锁头.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "锁头.png"; path = "BookShop/Assets/锁头.png"; sourceTree = "<group>"; };
-		D2C77CF8A64A86BD95386E718B5ED08A /* ResourceBundle-BookShop-BookShop-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-BookShop-BookShop-Info.plist"; sourceTree = "<group>"; };
-		D821464DA9FD13C9325F55A6170EE76B /* 电话@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "电话@2x.png"; path = "BookShop/Assets/电话@2x.png"; sourceTree = "<group>"; };
+		C19C61888614A1996DA3587C1B5B1BAF /* BookShop-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BookShop-prefix.pch"; sourceTree = "<group>"; };
+		D3070E259696445E3B31E5EF1454DC53 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D994CE3815D7DD0C6EB2224BFFBDF771 /* 背景.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "背景.png"; path = "BookShop/Assets/背景.png"; sourceTree = "<group>"; };
 		DA1B3C539970634E28C757C1D1CFE60A /* CTMediator+HandyTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTMediator+HandyTools.h"; path = "CTMediator/CTMediator/CTMediator+HandyTools.h"; sourceTree = "<group>"; };
-		DCF84B9741EB43770D36ECFD399D8648 /* libPods-BookShop_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BookShop_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E5D304CAAE59B3E226F930674140FF67 /* BussinessViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BussinessViewController.h; path = BookShop/Classes/Bussiness/BussinessViewController.h; sourceTree = "<group>"; };
-		E7C4121CE780D96EB51F1F827C4CC2FD /* libBookShop.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBookShop.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		E8BDC13949B1FE4B18C69A770BBBE304 /* 进入.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "进入.png"; path = "BookShop/Assets/进入.png"; sourceTree = "<group>"; };
-		E9838F3DA46AE6910F5215AB38F3C530 /* qrcode.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = qrcode.png; path = BookShop/Assets/qrcode.png; sourceTree = "<group>"; };
+		DC318E66986A72389A8BD861C13D7432 /* UIImage+BookShop.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+BookShop.h"; sourceTree = "<group>"; };
+		DCF84B9741EB43770D36ECFD399D8648 /* libPods-BookShop_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-BookShop_Example.a"; path = "libPods-BookShop_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7C4121CE780D96EB51F1F827C4CC2FD /* libBookShop.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libBookShop.a; path = libBookShop.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB7555B634F4256EBD404753672B1229 /* Target_BookShopDependency.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Target_BookShopDependency.m; path = MotivationalBook/Classes/Target_BookShopDependency.m; sourceTree = "<group>"; };
-		FF51E5F583D858FA64476852842A6391 /* 电话.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "电话.png"; path = "BookShop/Assets/电话.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		128CE1106A7E12B849448701C2D5898B /* Frameworks */ = {
+		048E5CFA9F3E77E186FACC7BA39A3C34 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1CFA603A33874E638E65FFFF27274BEF /* Frameworks */ = {
+		1E5DF9D202E9C7E522AE949F8AC22BA0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C42A16C0B3E0FFC918911B98BB1D630A /* Frameworks */ = {
+		D1E65AD79EE8B71B1429E3ED3F5B9442 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CB3E258FA74B870576131F473073ECEF /* Frameworks */ = {
+		FC24CB8EB95A0A1A040BED4B0A561E99 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -208,25 +158,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0091D1A698D8AEFCC2682740D736E7F8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				68B59F0C91E5DEA41A67D5E1A43390C3 /* BookShop.podspec */,
+				AEF5F8EF32C7BB87819180EC18A014E0 /* LICENSE */,
+				D3070E259696445E3B31E5EF1454DC53 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		00BA11548EC55FB86DE6E29B0C6BDE5E /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
 				74DF6E760738727E82101A1A06694CF6 /* Pods-BookShop_Example */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		0181B530E4DA716F0B35F3F97CDBC52C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B37C9FE0AADD317FAF50EAD563B7B2FF /* BookShop-dummy.m */,
-				654CA89DA9A01E5634F348B45C5859E7 /* BookShop-prefix.pch */,
-				264D3126B4E33BD96687E3E5C266F9CF /* BookShop.debug.xcconfig */,
-				9A53DD1D0E10F3BB0ED003655EC1C952 /* BookShop.release.xcconfig */,
-				D2C77CF8A64A86BD95386E718B5ED08A /* ResourceBundle-BookShop-BookShop-Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/BookShop";
 			sourceTree = "<group>";
 		};
 		0E371BCE8236A204B9812B88F79107B0 /* CTMediator */ = {
@@ -238,7 +185,16 @@
 				1CDDE991A9833755497BC565A80AA6BB /* CTMediator+HandyTools.m */,
 				6E2EA2073DCAF131844066DF5929302B /* Support Files */,
 			);
+			name = CTMediator;
 			path = CTMediator;
+			sourceTree = "<group>";
+		};
+		1DEF8B6E0DA99255E02DD0F05C68F582 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F4FD3A92E785B1BF3E2732E022BEC22D /* BookShop */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		1ED78D7FBF2A6924B1760AF12DFFBEBC /* Products */ = {
@@ -253,23 +209,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2E0A02B7AFF4DFD14B5235CC9C22715E /* BookShop */ = {
-			isa = PBXGroup;
-			children = (
-				E5D304CAAE59B3E226F930674140FF67 /* BussinessViewController.h */,
-				98B067367B44DEE59515B922A7026212 /* BussinessViewController.m */,
-				088413D9C3B216633AFD9B26D013E035 /* CTMediator+Bussiness.h */,
-				B28327C5418BE229E5AB261D01EA282E /* CTMediator+Bussiness.m */,
-				72DA737DB5969AC83F70F81E85A8C4C9 /* Pod */,
-				9DFD231693C5A4B21D964908B7D2EAB2 /* Resources */,
-				0181B530E4DA716F0B35F3F97CDBC52C /* Support Files */,
-				942AE8B62664B31D00AC9FA7 /* UIImage+BookShop.h */,
-				942AE8B72664B31D00AC9FA7 /* UIImage+BookShop.m */,
-			);
-			name = BookShop;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		6E2EA2073DCAF131844066DF5929302B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -280,24 +219,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/CTMediator";
-			sourceTree = "<group>";
-		};
-		6FB2DAE03EB3E83F1697810CE6D7988E /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				2E0A02B7AFF4DFD14B5235CC9C22715E /* BookShop */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		72DA737DB5969AC83F70F81E85A8C4C9 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				55F1C65563348EB9CB772FD8286BF321 /* BookShop.podspec */,
-				7292398C17AA2618FEFE5BCF07FD7A29 /* LICENSE */,
-				26CD9484367284C8608833306AB07C71 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		74DF6E760738727E82101A1A06694CF6 /* Pods-BookShop_Example */ = {
@@ -314,6 +235,14 @@
 			path = "Target Support Files/Pods-BookShop_Example";
 			sourceTree = "<group>";
 		};
+		762FA8461A112B803C7B2E15E1796590 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D994CE3815D7DD0C6EB2224BFFBDF771 /* 背景.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		8D27019233CBDA3BDFCA7ADB6D71897F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -324,39 +253,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/MotivationalBook";
-			sourceTree = "<group>";
-		};
-		9DFD231693C5A4B21D964908B7D2EAB2 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				41C55091AF98028CFBF4AE7EB68FE51B /* bgmain.png */,
-				28DD3AEF313DC947068C67A9DC236FB6 /* Icon-114.png */,
-				72A34F4BDC5C3AE6F48FE320817DED27 /* Icon-120.png */,
-				78DA820172C516D19008EA9D32FBC94D /* Icon-29.png */,
-				7B4B34C938CB417FDEA0F461EC330E14 /* Icon-57.png */,
-				BB47CB8E32108D918554418475E92B3B /* Icon-58.png */,
-				73F5AF02D42D150A1B08BDBBAF521A0B /* Icon-80.png */,
-				8DCCFDA8FFADA4246EBB38EE4BBF317F /* logo.png */,
-				E9838F3DA46AE6910F5215AB38F3C530 /* qrcode.png */,
-				B8EBB123BD30FBEAD4B955F4CE36B681 /* 使用指导1.png */,
-				94920D45B231E0781888B502E439A193 /* 使用指导2.png */,
-				11A6D0C3F8778206F0ED76F12B042DD3 /* 使用指导3.png */,
-				42DC2FF31FEE76F19CB1BD5673205334 /* 感知测试黑龙江.png */,
-				A5C0DB9F4CE9E02AEC9B5A9D8A7B1856 /* 感知测试黑龙江@2x.png */,
-				6FD44F768168214A6802E29647E67244 /* 指示点_未选中.png */,
-				A87E731A1B3931CCEE22B18D58E239A4 /* 指示点_选中.png */,
-				FF51E5F583D858FA64476852842A6391 /* 电话.png */,
-				D821464DA9FD13C9325F55A6170EE76B /* 电话@2x.png */,
-				6BE1A9A4477EF2FF011D768AD884A868 /* 睁开眼睛.png */,
-				2491244C25626DE97F51677EC4893F40 /* 睁开眼睛@2x.png */,
-				59E0313138955093D517E130D0FF6FF9 /* 背景.png */,
-				E8BDC13949B1FE4B18C69A770BBBE304 /* 进入.png */,
-				C48A3EDB73535261A9EB71D233FF7B58 /* 锁头.png */,
-				3E8E1003D83E7974D5E161FD4223DC18 /* 锁头@2x.png */,
-				0C14117A1890A444FFE5BF38994D5E95 /* 闭上眼睛.png */,
-				1616E46BA6673DFC5AF2B79F2C939A24 /* 闭上眼睛@2x.png */,
-			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
 		9F85874643B0209AB5216812BB7D3528 /* Pods */ = {
@@ -372,7 +268,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				6FB2DAE03EB3E83F1697810CE6D7988E /* Development Pods */,
+				1DEF8B6E0DA99255E02DD0F05C68F582 /* Development Pods */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
 				9F85874643B0209AB5216812BB7D3528 /* Pods */,
 				1ED78D7FBF2A6924B1760AF12DFFBEBC /* Products */,
@@ -396,37 +292,86 @@
 				EB7555B634F4256EBD404753672B1229 /* Target_BookShopDependency.m */,
 				8D27019233CBDA3BDFCA7ADB6D71897F /* Support Files */,
 			);
+			name = MotivationalBook;
 			path = MotivationalBook;
+			sourceTree = "<group>";
+		};
+		E27C68071D9190999C6F6D892A3BCC26 /* Bussiness */ = {
+			isa = PBXGroup;
+			children = (
+				90563EA4F4DFA4E6BD73AFF22220D0F7 /* BussinessViewController.h */,
+				6195CC715735D849F4082624E43C7A11 /* BussinessViewController.m */,
+				325A8FC235C07029AB67C20139813B0B /* CTMediator+Bussiness.h */,
+				005435FD0D50CE1FC9DFACB631AE9F0A /* CTMediator+Bussiness.m */,
+			);
+			name = Bussiness;
+			path = BookShop/Classes/Bussiness;
+			sourceTree = "<group>";
+		};
+		F4192F00672A2DA89D19992AA42ED33B /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				DC318E66986A72389A8BD861C13D7432 /* UIImage+BookShop.h */,
+				4DA0184E2D19FB72D0357B11549356B6 /* UIImage+BookShop.m */,
+			);
+			name = Category;
+			path = BookShop/Classes/Category;
+			sourceTree = "<group>";
+		};
+		F4FD3A92E785B1BF3E2732E022BEC22D /* BookShop */ = {
+			isa = PBXGroup;
+			children = (
+				E27C68071D9190999C6F6D892A3BCC26 /* Bussiness */,
+				F4192F00672A2DA89D19992AA42ED33B /* Category */,
+				0091D1A698D8AEFCC2682740D736E7F8 /* Pod */,
+				762FA8461A112B803C7B2E15E1796590 /* Resources */,
+				FD32290F4166705BD6653491528F2506 /* Support Files */,
+			);
+			name = BookShop;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FD32290F4166705BD6653491528F2506 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				32CDC136E9498586F3D25C6247D5C616 /* BookShop-dummy.m */,
+				C19C61888614A1996DA3587C1B5B1BAF /* BookShop-prefix.pch */,
+				16D788123E86A77BA9BFB4EBC8FE11DC /* BookShop.debug.xcconfig */,
+				1A95B643E873ABB785408C0F8BCE0EA4 /* BookShop.release.xcconfig */,
+				246A49BF6F0EB6B1F4D30141D01BFDD9 /* ResourceBundle-BookShop-BookShop-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BookShop";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		6200AB0CEB0F8256B2439BE150458AED /* Headers */ = {
+		436DDD0908DC7B5DB0F1E590AE7125F7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C799C6367D3B24B7DD3BF84CA415C8EE /* MotivationalBookVC.h in Headers */,
-				81EDE901E78E6DCFEF7A31975D07A8FB /* Target_BookShopDependency.h in Headers */,
+				F0D153A92CE33B7642752EBEBB9BC584 /* BussinessViewController.h in Headers */,
+				D7B5CD46193A7224E5B94DB855FC88D3 /* CTMediator+Bussiness.h in Headers */,
+				B60F195A301DE98BDEF8D190018C6508 /* UIImage+BookShop.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C4EB56AE13F8953B5FB4BBB8B80E079A /* Headers */ = {
+		5C3CF5D1F159B6EBD188E00B36257451 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2C1C5CA7077A979C2A75D35FBC7C0CA /* CTMediator+HandyTools.h in Headers */,
-				6BC5818E559E2F3305534EF0C5F35707 /* CTMediator.h in Headers */,
+				03BA063D38F626C27256B663E775E200 /* CTMediator+HandyTools.h in Headers */,
+				D9E3ED18F04EE29E5F618D6E962837CE /* CTMediator.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E9AC9C77494F767E6850C8B9DA93E44D /* Headers */ = {
+		F85E4D9E00ED859CEACFA672657E3FBD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76DF23469BB1F1C9B3C74ED314249D35 /* BussinessViewController.h in Headers */,
-				033F3F8438C924C3935067C0EAE175C1 /* CTMediator+Bussiness.h in Headers */,
-				942AE8B82664B31E00AC9FA7 /* UIImage+BookShop.h in Headers */,
+				5417C29D031315063B14681C1A929484 /* MotivationalBookVC.h in Headers */,
+				5129BD901F2A75BFB29DD3B1E341919F /* Target_BookShopDependency.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,11 +387,11 @@
 /* Begin PBXNativeTarget section */
 		6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 10E1A4B81FAC678A1DB072F36588D34B /* Build configuration list for PBXNativeTarget "CTMediator" */;
+			buildConfigurationList = ED7BC070F5145A17B373BB51D01C49DC /* Build configuration list for PBXNativeTarget "CTMediator" */;
 			buildPhases = (
-				C4EB56AE13F8953B5FB4BBB8B80E079A /* Headers */,
-				08A776323B6A4BB1BBF95F9D907F15AC /* Sources */,
-				1CFA603A33874E638E65FFFF27274BEF /* Frameworks */,
+				5C3CF5D1F159B6EBD188E00B36257451 /* Headers */,
+				32EF6DCC2F3589F2D6EF0084D69083FE /* Sources */,
+				048E5CFA9F3E77E186FACC7BA39A3C34 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -468,9 +413,9 @@
 			buildRules = (
 			);
 			dependencies = (
-				246C269DAB6C9E47319720E95CB1A79F /* PBXTargetDependency */,
-				74ED6307539DE87513DBCC67146BD666 /* PBXTargetDependency */,
-				D9A0E4F458B486379D6541FC27F22249 /* PBXTargetDependency */,
+				841CC97A787774AC448D8643CB8EB703 /* PBXTargetDependency */,
+				5D343580E42D4D44EC17AA951FD58192 /* PBXTargetDependency */,
+				8CEB22697B20198698955017F7020616 /* PBXTargetDependency */,
 			);
 			name = "Pods-BookShop_Example";
 			productName = "Pods-BookShop_Example";
@@ -479,11 +424,11 @@
 		};
 		A4C1EDBDE7CF69C96BABCF2C432ED849 /* BookShop-BookShop */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 38B5D4D462D3168D906FC44B2F267573 /* Build configuration list for PBXNativeTarget "BookShop-BookShop" */;
+			buildConfigurationList = 8649BF9A51B51B8BD7D49676F1A9BAEA /* Build configuration list for PBXNativeTarget "BookShop-BookShop" */;
 			buildPhases = (
-				D220E30F413710CFC0EE33F76D85B1A5 /* Sources */,
-				CB3E258FA74B870576131F473073ECEF /* Frameworks */,
-				E3B12A712A2018E4985F15214AEA7BDE /* Resources */,
+				3723CE5C0B8EE3FBC6ABD96112CFE2E2 /* Sources */,
+				FC24CB8EB95A0A1A040BED4B0A561E99 /* Frameworks */,
+				7C7CFBFCADDA45D60EAB6767B899E30A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -496,11 +441,11 @@
 		};
 		BB60C5C230110035501DEAA59B3F06CF /* MotivationalBook */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A105D2D840B521F0263ADDBFAEAA634E /* Build configuration list for PBXNativeTarget "MotivationalBook" */;
+			buildConfigurationList = 890056CE8F7F3913D0EF5FEF6D235CFF /* Build configuration list for PBXNativeTarget "MotivationalBook" */;
 			buildPhases = (
-				6200AB0CEB0F8256B2439BE150458AED /* Headers */,
-				4B74D7A22E8499BFF5583321441EAF21 /* Sources */,
-				128CE1106A7E12B849448701C2D5898B /* Frameworks */,
+				F85E4D9E00ED859CEACFA672657E3FBD /* Headers */,
+				92EAFC19695C49248827B162010E0A87 /* Sources */,
+				1E5DF9D202E9C7E522AE949F8AC22BA0 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -513,18 +458,18 @@
 		};
 		DACAA0D13C1197AC953B55496C5C1730 /* BookShop */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5F156A2FFB912AC654831B026CFF3922 /* Build configuration list for PBXNativeTarget "BookShop" */;
+			buildConfigurationList = DC2D6BD2A876F0B5B2C8C01CC6C985DA /* Build configuration list for PBXNativeTarget "BookShop" */;
 			buildPhases = (
-				E9AC9C77494F767E6850C8B9DA93E44D /* Headers */,
-				9C9ACD57676772683638604F5D50B1A2 /* Sources */,
-				C42A16C0B3E0FFC918911B98BB1D630A /* Frameworks */,
+				436DDD0908DC7B5DB0F1E590AE7125F7 /* Headers */,
+				3ECC57FD3F21F039072D8E71873C03F6 /* Sources */,
+				D1E65AD79EE8B71B1429E3ED3F5B9442 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BB7147558FF62239FC9477F028C9FA59 /* PBXTargetDependency */,
-				62D9BC914450FD78DDF8CF0B5FA57BEC /* PBXTargetDependency */,
-				C71505F7AA801AEC6279CFF5381A51A1 /* PBXTargetDependency */,
+				B83C257CB23865949ED760FA8F8B6589 /* PBXTargetDependency */,
+				4F6C0173B5E7558D4016556199E5A755 /* PBXTargetDependency */,
+				69106E4F38C93618923E984E49680481 /* PBXTargetDependency */,
 			);
 			name = BookShop;
 			productName = BookShop;
@@ -563,59 +508,42 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E3B12A712A2018E4985F15214AEA7BDE /* Resources */ = {
+		7C7CFBFCADDA45D60EAB6767B899E30A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B759D14B85B072AC4298AF1917490105 /* bgmain.png in Resources */,
-				104F703B10EEF696C6F3B547F2889454 /* Icon-114.png in Resources */,
-				3E77DFF629379527E5BD069BE834D98A /* Icon-120.png in Resources */,
-				0184D4AB8AB52ECF726E220516DFBBB2 /* Icon-29.png in Resources */,
-				FC12D5FFDEA40A88DBE61E6D747F9CD5 /* Icon-57.png in Resources */,
-				6ED43DC5A3190BDD963C603F27F8E616 /* Icon-58.png in Resources */,
-				FF4C53D9A98A50457AB2E38A8AEEAFE6 /* Icon-80.png in Resources */,
-				D1916359266EDAA8AA5F153C1AF53B76 /* logo.png in Resources */,
-				7DFA0B014BBFC3C62016999D957FC6C2 /* qrcode.png in Resources */,
-				57DA244F58F83128E38D452AAB50FC03 /* 使用指导1.png in Resources */,
-				58171BA33A94994CFB9F335E3A9894C6 /* 使用指导2.png in Resources */,
-				4FD112109D9B1653BBAE7CC5F0B6993B /* 使用指导3.png in Resources */,
-				B7E59B9545EBE17D6151BA1F9783647B /* 感知测试黑龙江.png in Resources */,
-				04D5409D9CC1776755602CA86C8E5830 /* 感知测试黑龙江@2x.png in Resources */,
-				681978E1DB3FCBEFE5765A57D4AB6DBB /* 指示点_未选中.png in Resources */,
-				F6238E19FC7EA93E769D455830E496E9 /* 指示点_选中.png in Resources */,
-				9BDCE1715F6B581E24D886BB74BF8641 /* 电话.png in Resources */,
-				70F0485C07A43B21301D5D1ACAFBCAE0 /* 电话@2x.png in Resources */,
-				70251DA7E170ADCC633E628DBAE6466F /* 睁开眼睛.png in Resources */,
-				2CB595D4FB4EA1D9CCF98676CA403363 /* 睁开眼睛@2x.png in Resources */,
-				96E5E6D7240664AF392C79BF5DC03C4B /* 背景.png in Resources */,
-				634040734BE61CA3EF8D8C415BF5CD89 /* 进入.png in Resources */,
-				874665B0133944D31385157FFF005DFB /* 锁头.png in Resources */,
-				D47EE478EC100E034E41C86E965E0CD7 /* 锁头@2x.png in Resources */,
-				E5E3CC76DFB85EF259378988BB9DE601 /* 闭上眼睛.png in Resources */,
-				6861AC6DF685D80B946DD3E7341B7EF0 /* 闭上眼睛@2x.png in Resources */,
+				28F27B514A2A462481DB8A8487A5FD8E /* 背景.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		08A776323B6A4BB1BBF95F9D907F15AC /* Sources */ = {
+		32EF6DCC2F3589F2D6EF0084D69083FE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EA949BB92CE4390F54188B093517D2F /* CTMediator+HandyTools.m in Sources */,
-				8CF12BFC0F9EAB0CAED43CEB47FE8DBE /* CTMediator-dummy.m in Sources */,
-				DFC6C37B347AB16B3C8995EFD8A1D238 /* CTMediator.m in Sources */,
+				381718E913090CF1C52D7B5F4DFFE498 /* CTMediator+HandyTools.m in Sources */,
+				1A42BA8FCBDEC41C1D7894942573B001 /* CTMediator-dummy.m in Sources */,
+				9CD14E65D4796975FED334582624D018 /* CTMediator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4B74D7A22E8499BFF5583321441EAF21 /* Sources */ = {
+		3723CE5C0B8EE3FBC6ABD96112CFE2E2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44E727747DFBDC6CD6F0BD790D256624 /* MotivationalBook-dummy.m in Sources */,
-				B0940EF6E71939082723F827C3E10461 /* MotivationalBookVC.m in Sources */,
-				ECEE3459536CD0BEA8A3963F5201BEF3 /* Target_BookShopDependency.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ECC57FD3F21F039072D8E71873C03F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0CF3A575474886E10527FDC85A47CA4 /* BookShop-dummy.m in Sources */,
+				71AC6E9172D1651276AC0A6D1D02922B /* BussinessViewController.m in Sources */,
+				5F85FF7EF533B16B9D3FA8C88E8F068E /* CTMediator+Bussiness.m in Sources */,
+				E4A2927EADCF48653F2433446358F2AB /* UIImage+BookShop.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -627,62 +555,54 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9C9ACD57676772683638604F5D50B1A2 /* Sources */ = {
+		92EAFC19695C49248827B162010E0A87 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAA5F52150EBAB2E65EE4BCEC9A1A325 /* BookShop-dummy.m in Sources */,
-				D4E20ABBD0FE3514330DF3EC6E677004 /* BussinessViewController.m in Sources */,
-				942AE8B92664B31E00AC9FA7 /* UIImage+BookShop.m in Sources */,
-				451C7DED203131C03EF87A991C275E57 /* CTMediator+Bussiness.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D220E30F413710CFC0EE33F76D85B1A5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				A75CABD7A9AC8450D76F4D848FA796B2 /* MotivationalBook-dummy.m in Sources */,
+				59CD6D694C928E5A898257E222AA38BE /* MotivationalBookVC.m in Sources */,
+				53290C09CDC6214D7512CD5E5BE51F48 /* Target_BookShopDependency.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		246C269DAB6C9E47319720E95CB1A79F /* PBXTargetDependency */ = {
+		4F6C0173B5E7558D4016556199E5A755 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = 6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */;
+			targetProxy = D2B84594749865174DC54DB6FBF60604 /* PBXContainerItemProxy */;
+		};
+		5D343580E42D4D44EC17AA951FD58192 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = 6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */;
+			targetProxy = 8655A8F800CF908D344F8C7E53BB1919 /* PBXContainerItemProxy */;
+		};
+		69106E4F38C93618923E984E49680481 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MotivationalBook;
+			target = BB60C5C230110035501DEAA59B3F06CF /* MotivationalBook */;
+			targetProxy = 486ED8C7B5DE54B2497F65815D6A80A0 /* PBXContainerItemProxy */;
+		};
+		841CC97A787774AC448D8643CB8EB703 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BookShop;
 			target = DACAA0D13C1197AC953B55496C5C1730 /* BookShop */;
-			targetProxy = 75FAFF0D5C3947C27E5BF456C27A4E65 /* PBXContainerItemProxy */;
+			targetProxy = A39D0FA835526798594487402D9EB8F3 /* PBXContainerItemProxy */;
 		};
-		62D9BC914450FD78DDF8CF0B5FA57BEC /* PBXTargetDependency */ = {
+		8CEB22697B20198698955017F7020616 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = CTMediator;
-			target = 6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */;
-			targetProxy = 2F980BC1C4F94E372ADABBB1A8551E94 /* PBXContainerItemProxy */;
+			name = MotivationalBook;
+			target = BB60C5C230110035501DEAA59B3F06CF /* MotivationalBook */;
+			targetProxy = 0BBDEB38C1806625CEA832283A6FFC3B /* PBXContainerItemProxy */;
 		};
-		74ED6307539DE87513DBCC67146BD666 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CTMediator;
-			target = 6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */;
-			targetProxy = 6774A525B63508B004B430EDF0DB6EE7 /* PBXContainerItemProxy */;
-		};
-		BB7147558FF62239FC9477F028C9FA59 /* PBXTargetDependency */ = {
+		B83C257CB23865949ED760FA8F8B6589 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "BookShop-BookShop";
 			target = A4C1EDBDE7CF69C96BABCF2C432ED849 /* BookShop-BookShop */;
-			targetProxy = 73EC77E46F6A08568855528760113FA1 /* PBXContainerItemProxy */;
-		};
-		C71505F7AA801AEC6279CFF5381A51A1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MotivationalBook;
-			target = BB60C5C230110035501DEAA59B3F06CF /* MotivationalBook */;
-			targetProxy = A8069A715A43FFF5D0FA45DEDA0A61F7 /* PBXContainerItemProxy */;
-		};
-		D9A0E4F458B486379D6541FC27F22249 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MotivationalBook;
-			target = BB60C5C230110035501DEAA59B3F06CF /* MotivationalBook */;
-			targetProxy = E1B7661C5F60A6EA186B767D612A5E65 /* PBXContainerItemProxy */;
+			targetProxy = E82D80D684F173626387C25021B1EC35 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -708,28 +628,21 @@
 			};
 			name = Release;
 		};
-		1F89A9D3DD62389E93838BBCAFC6F5C6 /* Debug */ = {
+		11383D0ED2069AF3097B139BB461EF35 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 50E93E65112EC9FCACABD8909B6AF56B /* CTMediator.debug.xcconfig */;
+			baseConfigurationReference = 1A95B643E873ABB785408C0F8BCE0EA4 /* BookShop.release.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/CTMediator/CTMediator-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = CTMediator;
-				PRODUCT_NAME = CTMediator;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BookShop";
+				IBSC_MODULE = BookShop;
+				INFOPLIST_FILE = "Target Support Files/BookShop/ResourceBundle-BookShop-BookShop-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = BookShop;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
-			name = Debug;
+			name = Release;
 		};
 		211069A147198C2E75D3DBA27F35A4FD /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -751,33 +664,9 @@
 			};
 			name = Debug;
 		};
-		2CC0C5550D64BB379E69B02015119415 /* Release */ = {
+		48421D02E3846F9A7434718991300865 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9A53DD1D0E10F3BB0ED003655EC1C952 /* BookShop.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/BookShop/BookShop-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = BookShop;
-				PRODUCT_NAME = BookShop;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		43DADFC3292774971A8C6E480B73D6CF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B9A088E176291D90EA2C629C8D93EDA5 /* MotivationalBook.debug.xcconfig */;
+			baseConfigurationReference = 69728CEE8EDE3E631B1B498D1E24BD85 /* MotivationalBook.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -795,10 +684,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
-		B44A1737E2ECF3F1A5800C3700942814 /* Release */ = {
+		73DBA33D2836D97364178B4BD24DFC86 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 860F04A6C6F9D29939DB0DE2E7F908EE /* CTMediator.release.xcconfig */;
 			buildSettings = {
@@ -821,6 +711,68 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
+		};
+		77B473B41184DE10ABB9D8A3E64A22FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16D788123E86A77BA9BFB4EBC8FE11DC /* BookShop.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/BookShop/BookShop-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = BookShop;
+				PRODUCT_NAME = BookShop;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8BEC6BF9A678AACA17FA6C80B2BC8C08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16D788123E86A77BA9BFB4EBC8FE11DC /* BookShop.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BookShop";
+				IBSC_MODULE = BookShop;
+				INFOPLIST_FILE = "Target Support Files/BookShop/ResourceBundle-BookShop-BookShop-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = BookShop;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		BD5D7AFAA9E6C0724DECBD4CB940CB3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50E93E65112EC9FCACABD8909B6AF56B /* CTMediator.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CTMediator/CTMediator-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CTMediator;
+				PRODUCT_NAME = CTMediator;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 		C14E932D4C3EFCC589F7DEABCEC18F22 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -876,15 +828,16 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		CEBCB9C046E27E66FBB0464B14566706 /* Release */ = {
+		C7BF0060FD59A7D1130D4A0C4048385E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69728CEE8EDE3E631B1B498D1E24BD85 /* MotivationalBook.release.xcconfig */;
+			baseConfigurationReference = B9A088E176291D90EA2C629C8D93EDA5 /* MotivationalBook.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -902,13 +855,12 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
-		D4282DFFF96220807E702A356FE2A74E /* Debug */ = {
+		CC330495C5C2264F2D2F2A4BCC9759F1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 264D3126B4E33BD96687E3E5C266F9CF /* BookShop.debug.xcconfig */;
+			baseConfigurationReference = 1A95B643E873ABB785408C0F8BCE0EA4 /* BookShop.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -926,8 +878,9 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
 		EF3BAAA889B17377BE8F3254633FA0A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -994,59 +947,9 @@
 			};
 			name = Debug;
 		};
-		F698F315C70CA5376EE882C3DCF5A679 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9A53DD1D0E10F3BB0ED003655EC1C952 /* BookShop.release.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BookShop";
-				IBSC_MODULE = BookShop;
-				INFOPLIST_FILE = "Target Support Files/BookShop/ResourceBundle-BookShop-BookShop-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = BookShop;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		FCCB0930D062E83D4984269E25FFE43D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 264D3126B4E33BD96687E3E5C266F9CF /* BookShop.debug.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BookShop";
-				IBSC_MODULE = BookShop;
-				INFOPLIST_FILE = "Target Support Files/BookShop/ResourceBundle-BookShop-BookShop-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = BookShop;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		10E1A4B81FAC678A1DB072F36588D34B /* Build configuration list for PBXNativeTarget "CTMediator" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1F89A9D3DD62389E93838BBCAFC6F5C6 /* Debug */,
-				B44A1737E2ECF3F1A5800C3700942814 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		38B5D4D462D3168D906FC44B2F267573 /* Build configuration list for PBXNativeTarget "BookShop-BookShop" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FCCB0930D062E83D4984269E25FFE43D /* Debug */,
-				F698F315C70CA5376EE882C3DCF5A679 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1056,20 +959,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5F156A2FFB912AC654831B026CFF3922 /* Build configuration list for PBXNativeTarget "BookShop" */ = {
+		8649BF9A51B51B8BD7D49676F1A9BAEA /* Build configuration list for PBXNativeTarget "BookShop-BookShop" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D4282DFFF96220807E702A356FE2A74E /* Debug */,
-				2CC0C5550D64BB379E69B02015119415 /* Release */,
+				8BEC6BF9A678AACA17FA6C80B2BC8C08 /* Debug */,
+				11383D0ED2069AF3097B139BB461EF35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A105D2D840B521F0263ADDBFAEAA634E /* Build configuration list for PBXNativeTarget "MotivationalBook" */ = {
+		890056CE8F7F3913D0EF5FEF6D235CFF /* Build configuration list for PBXNativeTarget "MotivationalBook" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				43DADFC3292774971A8C6E480B73D6CF /* Debug */,
-				CEBCB9C046E27E66FBB0464B14566706 /* Release */,
+				C7BF0060FD59A7D1130D4A0C4048385E /* Debug */,
+				48421D02E3846F9A7434718991300865 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1079,6 +982,24 @@
 			buildConfigurations = (
 				211069A147198C2E75D3DBA27F35A4FD /* Debug */,
 				0F252C3283293BA90EFC24E408BAFBEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC2D6BD2A876F0B5B2C8C01CC6C985DA /* Build configuration list for PBXNativeTarget "BookShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77B473B41184DE10ABB9D8A3E64A22FA /* Debug */,
+				CC330495C5C2264F2D2F2A4BCC9759F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED7BC070F5145A17B373BB51D01C49DC /* Build configuration list for PBXNativeTarget "CTMediator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD5D7AFAA9E6C0724DECBD4CB940CB3A /* Debug */,
+				73DBA33D2836D97364178B4BD24DFC86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

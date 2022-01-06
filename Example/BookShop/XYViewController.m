@@ -7,6 +7,7 @@
 //
 
 #import "XYViewController.h"
+#import <BookShop/BussinessViewController.h>
 
 @interface XYViewController ()
 
@@ -15,9 +16,14 @@
 @implementation XYViewController
 
 - (void)viewDidLoad
-{
+{NSProxy *a;
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    BussinessViewController *vc = [BussinessViewController new];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 - (void)didReceiveMemoryWarning
